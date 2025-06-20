@@ -1,0 +1,360 @@
+.stat-filter-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  
+  .view-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    background-color: #F5F7FA;
+    border-radius: 30px;
+    padding: 5px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15PX 10px 15px 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  
+  .toggle-button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    background: none;
+    color: #7D8FB3;
+  }
+  
+  .toggle-button.active {
+    background-color: #4880FF;
+    color: white;
+    box-shadow: 0 2px 8px rgba(72, 128, 255, 0.3);
+  }
+  
+  /* Styles pour l'étape 1 - Sélection du type de statistiques */
+  .stat-selection, .criteria-selection, .results-view {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 30px auto;
+  }
+  
+  .stat-selection h2, .criteria-selection h2, .results-view h2 {
+    color: #343C6A;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  
+  .stat-options {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .stat-option {
+    flex: 1;
+    border: 2px solid #F0F3FA;
+    border-radius: 12px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .stat-option:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  }
+  
+  .stat-option.selected {
+    border-color: #4880FF;
+    background-color: rgba(72, 128, 255, 0.05);
+  }
+  
+  .stat-option h3 {
+    color: #343C6A;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .stat-option p {
+    color: #7D8FB3;
+    font-size: 14px;
+  }
+  
+  /* Styles pour l'étape 2 - Sélection des critères */
+  .criteria-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .criterion-item {
+    position: relative;
+    border: 2px solid #F0F3FA;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+  }
+  
+  .criterion-item:hover {
+    background-color: rgba(72, 128, 255, 0.03);
+  }
+  
+  .criterion-item.selected {
+    border-color: #4880FF;
+    background-color: rgba(72, 128, 255, 0.05);
+  }
+  
+  .criterion-item h3 {
+    color: #343C6A;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  
+  .criterion-item p {
+    color: #7D8FB3;
+    font-size: 13px;
+    padding-right: 20px; /* Pour éviter chevauchement avec le checkmark */
+  }
+  
+  /* Styles pour le checkmark de sélection */
+  .selected-mark {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #4880FF;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  /* Styles pour la zone de valeurs des critères */
+  .criteria-values {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #F0F3FA;
+    border-radius: 10px;
+    background-color: #FAFBFC;
+  }
+  
+  .criteria-values h3 {
+    color: #343C6A;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .criteria-value-item {
+    margin-bottom: 15px;
+  }
+  
+  .criteria-value-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .criteria-value-item label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #343C6A;
+    font-size: 14px;
+  }
+  
+  .criteria-hint {
+    font-style: italic;
+    color: #7D8FB3;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  /* Styles pour les dropdowns */
+  .select-wrapper {
+    position: relative;
+    width: 100%;
+  }
+  
+  .criteria-select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #E4E8F0;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #343C6A;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%237D8FB3' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 16px;
+    background-color: white;
+  }
+  
+  .criteria-select:focus {
+    outline: none;
+    border-color: #4880FF;
+    box-shadow: 0 0 0 2px rgba(72, 128, 255, 0.2);
+  }
+  
+  .criteria-select:hover {
+    border-color: #4880FF;
+  }
+  
+  /* Styles pour l'étape 3 - Résultats */
+  .criteria-summary {
+    background-color: #F8FAFC;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #343C6A;
+  }
+  
+  .criteria-summary h3 {
+    color: #343C6A;
+    margin-bottom: 12px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .selected-criteria-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .selected-criteria-list li {
+    background-color: #f0f3fa;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .selected-criteria-list li strong {
+    margin-right: 5px;
+    color: #343C6A;
+  }
+  
+  .results-summary {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  .total-count, .matching-count {
+    text-align: center;
+    padding: 15px 20px;
+    background-color: #F8FAFC;
+    border-radius: 10px;
+    min-width: 180px;
+  }
+  
+  .count-label {
+    display: block;
+    color: #7D8FB3;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .count-value {
+    display: block;
+    color: #343C6A;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .percentage-circle {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  /* Boutons de navigation */
+  .navigation-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  .back-button, .next-button, .new-search-button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .back-button {
+    background-color: #F0F3FA;
+    color: #343C6A;
+    border: none;
+  }
+  
+  .back-button:hover {
+    background-color: #E4E8F0;
+  }
+  
+  .next-button, .new-search-button {
+    background-color: #4880FF;
+    color: white;
+    border: none;
+  }
+  
+  .next-button:disabled {
+    background-color: #C1CDE7;
+    cursor: not-allowed;
+  }
+  
+  .next-button:not(:disabled):hover, 
+  .new-search-button:hover {
+    background-color: #3A6AD4;
+    box-shadow: 0 4px 10px rgba(72, 128, 255, 0.3);
+  }
+  
+  /* Adaptation pour mobile */
+  @media (max-width: 768px) {
+    .stat-options {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .stat-option {
+      width: 100%;
+    }
+    
+    .criteria-list {
+      grid-template-columns: 1fr;
+    }
+    
+    .results-summary {
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .total-count, .matching-count {
+      width: 100%;
+    }
+    
+    .select-wrapper {
+      width: 100%;
+    }
+    
+    .criteria-values {
+      padding: 15px;
+    }
+    
+    .criteria-value-item {
+      margin-bottom: 12px;
+    }
+  }

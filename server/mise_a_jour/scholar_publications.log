@@ -1,0 +1,111 @@
+2025-05-11 10:18:04,027 - ScholarPublicationCollector - INFO - No authors specified, using test data
+2025-05-11 10:18:04,027 - ScholarPublicationCollector - INFO - Collecting Google Scholar publications for 3 authors, year 2025...
+2025-05-11 10:18:04,027 - ScholarPublicationCollector - INFO - 
+ Processing John Smith...
+2025-05-11 10:18:04,028 - ScholarPublicationCollector - INFO - 
+ Searching for author: John Smith...
+2025-05-11 10:18:04,028 - scholarly - INFO - Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=John%20Smith
+2025-05-11 10:18:17,228 - scholarly - INFO - Exception ConnectError while fetching page: ('[Errno 11001] getaddrinfo failed',)
+2025-05-11 10:18:17,229 - scholarly - INFO - Retrying with a new session.
+2025-05-11 10:18:31,544 - scholarly - INFO - Exception ConnectError while fetching page: ('[Errno 11001] getaddrinfo failed',)
+2025-05-11 10:18:31,544 - scholarly - INFO - Retrying with a new session.
+2025-05-11 10:18:47,960 - httpx - INFO - HTTP Request: GET https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=John%20Smith "HTTP/1.1 302 Found"
+2025-05-11 10:18:53,461 - httpx - INFO - HTTP Request: GET https://accounts.google.com/Login?hl=en&continue=https://scholar.google.com/citations%3Fhl%3Den%26view_op%3Dsearch_authors%26mauthors%3DJohn%2520Smith&service=citations "HTTP/1.1 302 Found"
+2025-05-11 10:18:54,181 - httpx - INFO - HTTP Request: GET https://accounts.google.com/InteractiveLogin?continue=https://scholar.google.com/citations?hl%3Den%26view_op%3Dsearch_authors%26mauthors%3DJohn%2520Smith&hl=en&service=citations&ifkv=ASKV5MjhXjdkOIqMGr4cewFMnaZq0XwoFdry_zejhJ6u8pzVveyIbH643AA--pgW957HMY2Q6PLalQ "HTTP/1.1 302 Moved Temporarily"
+2025-05-11 10:18:59,254 - scholarly - INFO - Timeout Exception ReadTimeout while fetching page: ('The read operation timed out',)
+2025-05-11 10:18:59,254 - scholarly - INFO - Increasing timeout and retrying within same session.
+2025-05-11 10:19:10,875 - httpx - INFO - HTTP Request: GET https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=John%20Smith "HTTP/1.1 302 Found"
+2025-05-11 10:19:11,223 - httpx - INFO - HTTP Request: GET https://accounts.google.com/Login?hl=en&continue=https://scholar.google.com/citations%3Fhl%3Den%26view_op%3Dsearch_authors%26mauthors%3DJohn%2520Smith&service=citations "HTTP/1.1 302 Found"
+2025-05-11 10:19:11,357 - httpx - INFO - HTTP Request: GET https://accounts.google.com/InteractiveLogin?continue=https://scholar.google.com/citations?hl%3Den%26view_op%3Dsearch_authors%26mauthors%3DJohn%2520Smith&hl=en&service=citations&ifkv=ASKV5MgZAjbtFNtewzpuIZprDQ50bRPU_eGfQ8Ft6jFAVivFog9Rfy__IdVXjRq-ksQz7tVeYcNa "HTTP/1.1 302 Moved Temporarily"
+2025-05-11 10:19:11,583 - httpx - INFO - HTTP Request: GET https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fscholar.google.com%2Fcitations%3Fhl%3Den%26view_op%3Dsearch_authors%26mauthors%3DJohn%2520Smith&hl=en&ifkv=ASKV5Mi-KmnCaNFOIlg7aiZREERYqKd6FNdvZLlpT69rQlOVNvtyLBAg-qlVL3KtgqhYZvx-UsDbsQ&service=citations&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1747363504%3A1746955040379874 "HTTP/1.1 200 OK"
+2025-05-11 10:19:12,103 - scholarly - INFO - Found 0 authors
+2025-05-11 10:19:12,106 - scholarly - INFO - No more author pages
+2025-05-11 10:19:12,106 - ScholarPublicationCollector - WARNING -  No exact profile found for John Smith. Checking alternative matches...
+2025-05-11 10:19:12,107 - ScholarPublicationCollector - WARNING -  No profile found for John Smith or related names
+2025-05-11 10:19:12,107 - ScholarPublicationCollector - WARNING -  No Google Scholar profile or publications found for John Smith
+2025-05-11 10:19:12,107 - ScholarPublicationCollector - INFO - Waiting 5s before next researcher...
+2025-05-11 10:19:17,109 - ScholarPublicationCollector - INFO - 
+ Processing Jane Doe...
+2025-05-11 10:19:17,109 - ScholarPublicationCollector - INFO - 
+ Searching for author: Jane Doe...
+2025-05-11 10:19:17,110 - scholarly - INFO - Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Jane%20Doe
+2025-05-11 10:19:18,718 - scholarly - INFO - Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+2025-05-11 10:19:18,718 - scholarly - INFO - Retrying with a new session.
+2025-05-11 10:19:21,805 - httpx - INFO - HTTP Request: GET https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Jane%20Doe "HTTP/1.1 302 Found"
+2025-05-11 10:19:22,102 - httpx - INFO - HTTP Request: GET https://accounts.google.com/Login?hl=en&continue=https://scholar.google.com/citations%3Fhl%3Den%26view_op%3Dsearch_authors%26mauthors%3DJane%2520Doe&service=citations "HTTP/1.1 302 Found"
+2025-05-11 10:19:22,238 - httpx - INFO - HTTP Request: GET https://accounts.google.com/InteractiveLogin?continue=https://scholar.google.com/citations?hl%3Den%26view_op%3Dsearch_authors%26mauthors%3DJane%2520Doe&hl=en&service=citations&ifkv=ASKV5MgNDUytgP12ER6b2tTcTLrubCXsye8XGecuxFzl47_ho0-1nx84fHfWGqqLYbqgnip7ydU8 "HTTP/1.1 302 Moved Temporarily"
+2025-05-11 10:19:22,508 - httpx - INFO - HTTP Request: GET https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fscholar.google.com%2Fcitations%3Fhl%3Den%26view_op%3Dsearch_authors%26mauthors%3DJane%2520Doe&hl=en&ifkv=ASKV5Mg697BH0U-slcD7UiONqo06iXGtTB6yf6eBZ_COrgmD6EDiPnsFi97mcL8ZkD281GAcKVli&service=citations&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-636669599%3A1746955051262421 "HTTP/1.1 200 OK"
+2025-05-11 10:19:23,110 - scholarly - INFO - Found 0 authors
+2025-05-11 10:19:23,113 - scholarly - INFO - No more author pages
+2025-05-11 10:19:23,114 - ScholarPublicationCollector - WARNING -  No exact profile found for Jane Doe. Checking alternative matches...
+2025-05-11 10:19:23,114 - ScholarPublicationCollector - WARNING -  No profile found for Jane Doe or related names
+2025-05-11 10:19:23,114 - ScholarPublicationCollector - WARNING -  No Google Scholar profile or publications found for Jane Doe
+2025-05-11 10:19:23,115 - ScholarPublicationCollector - INFO - Waiting 5s before next researcher...
+2025-05-11 10:19:28,116 - ScholarPublicationCollector - INFO - 
+ Processing Michael Johnson...
+2025-05-11 10:19:28,116 - ScholarPublicationCollector - INFO - 
+ Searching for author: Michael Johnson...
+2025-05-11 10:19:28,117 - scholarly - INFO - Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Michael%20Johnson
+2025-05-11 10:19:29,596 - scholarly - INFO - Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+2025-05-11 10:19:29,596 - scholarly - INFO - Retrying with a new session.
+2025-05-11 10:19:33,683 - httpx - INFO - HTTP Request: GET https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Michael%20Johnson "HTTP/1.1 302 Found"
+2025-05-11 10:19:34,314 - httpx - INFO - HTTP Request: GET https://accounts.google.com/Login?hl=en&continue=https://scholar.google.com/citations%3Fhl%3Den%26view_op%3Dsearch_authors%26mauthors%3DMichael%2520Johnson&service=citations "HTTP/1.1 302 Found"
+2025-05-11 10:19:34,472 - httpx - INFO - HTTP Request: GET https://accounts.google.com/InteractiveLogin?continue=https://scholar.google.com/citations?hl%3Den%26view_op%3Dsearch_authors%26mauthors%3DMichael%2520Johnson&hl=en&service=citations&ifkv=ASKV5MhPMAwVxwRqR7tznHi5qczhyresmVf2VaKDFLHvDM3f8UpfySOrGamKlWSxiLeVA3AuwOIjRA "HTTP/1.1 302 Moved Temporarily"
+2025-05-11 10:19:34,666 - httpx - INFO - HTTP Request: GET https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fscholar.google.com%2Fcitations%3Fhl%3Den%26view_op%3Dsearch_authors%26mauthors%3DMichael%2520Johnson&hl=en&ifkv=ASKV5MiP5y62i2hRIhQFiVHGTcGyAadQ7xI4QoCMMTpCAeHShymWBzEy2ho9ocSwleqsEXNCavZhcg&service=citations&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1647456032%3A1746955063495682 "HTTP/1.1 200 OK"
+2025-05-11 10:19:35,016 - scholarly - INFO - Found 0 authors
+2025-05-11 10:19:35,019 - scholarly - INFO - No more author pages
+2025-05-11 10:19:35,019 - ScholarPublicationCollector - WARNING -  No exact profile found for Michael Johnson. Checking alternative matches...
+2025-05-11 10:19:35,020 - ScholarPublicationCollector - WARNING -  No profile found for Michael Johnson or related names
+2025-05-11 10:19:35,020 - ScholarPublicationCollector - WARNING -  No Google Scholar profile or publications found for Michael Johnson
+2025-05-11 10:19:35,021 - ScholarPublicationCollector - INFO - Waiting 5s before next researcher...
+2025-05-11 10:19:40,022 - ScholarPublicationCollector - INFO - 
+ Final dataset contains 0 publications across 0 authors.
+2025-05-11 10:19:40,023 - ScholarPublicationCollector - INFO -  Data saved to scholar_publications_2025.json
+2025-05-11 10:19:40,023 - ScholarPublicationCollector - INFO - Script completed successfully
+2025-05-12 12:15:39,863 - ScholarPublicationCollector - INFO - No authors specified, using test data
+2025-05-12 12:15:39,865 - ScholarPublicationCollector - INFO - Collecting Google Scholar publications for 3 authors, year 2025...
+2025-05-12 12:15:39,865 - ScholarPublicationCollector - INFO - 
+ Processing John Smith...
+2025-05-12 12:15:39,866 - ScholarPublicationCollector - INFO - 
+ Searching for author: John Smith...
+2025-05-12 12:15:39,866 - scholarly - INFO - Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=John%20Smith
+2025-05-12 12:15:42,216 - httpx - INFO - HTTP Request: GET https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=John%20Smith "HTTP/1.1 302 Found"
+2025-05-12 12:15:42,936 - httpx - INFO - HTTP Request: GET https://accounts.google.com/Login?hl=en&continue=https://scholar.google.com/citations%3Fhl%3Den%26view_op%3Dsearch_authors%26mauthors%3DJohn%2520Smith&service=citations "HTTP/1.1 302 Found"
+2025-05-12 12:15:42,995 - httpx - INFO - HTTP Request: GET https://accounts.google.com/InteractiveLogin?continue=https://scholar.google.com/citations?hl%3Den%26view_op%3Dsearch_authors%26mauthors%3DJohn%2520Smith&hl=en&service=citations&ifkv=ASKV5MjTza-V4S8PldQLLh_kx0kJ8o_FUBddrqr8dEea0Z0MLgqECKAB47erUeYPuPP1OBRTfXtu5A "HTTP/1.1 302 Moved Temporarily"
+2025-05-12 12:15:43,090 - httpx - INFO - HTTP Request: GET https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fscholar.google.com%2Fcitations%3Fhl%3Den%26view_op%3Dsearch_authors%26mauthors%3DJohn%2520Smith&hl=en&ifkv=ASKV5Mjf0CZNE24M52bIUf7zu_j8h3RrmPABtpVT_CWHy8pDDQPdIFX3P8K3_TJJADOrK8fPn1urrA&service=citations&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1830465601%3A1747048431547361 "HTTP/1.1 200 OK"
+2025-05-12 12:15:43,652 - scholarly - INFO - Found 0 authors
+2025-05-12 12:15:43,654 - scholarly - INFO - No more author pages
+2025-05-12 12:15:43,655 - ScholarPublicationCollector - WARNING -  No exact profile found for John Smith. Checking alternative matches...
+2025-05-12 12:15:43,655 - ScholarPublicationCollector - WARNING -  No profile found for John Smith or related names
+2025-05-12 12:15:43,655 - ScholarPublicationCollector - WARNING -  No Google Scholar profile or publications found for John Smith
+2025-05-12 12:15:43,656 - ScholarPublicationCollector - INFO - Waiting 5s before next researcher...
+2025-05-12 12:15:48,657 - ScholarPublicationCollector - INFO - 
+ Processing Jane Doe...
+2025-05-12 12:15:48,657 - ScholarPublicationCollector - INFO - 
+ Searching for author: Jane Doe...
+2025-05-12 12:15:48,657 - scholarly - INFO - Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Jane%20Doe
+2025-05-12 12:15:51,187 - httpx - INFO - HTTP Request: GET https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Jane%20Doe "HTTP/1.1 302 Found"
+2025-05-12 12:15:51,327 - httpx - INFO - HTTP Request: GET https://accounts.google.com/Login?hl=en&continue=https://scholar.google.com/citations%3Fhl%3Den%26view_op%3Dsearch_authors%26mauthors%3DJane%2520Doe&service=citations "HTTP/1.1 302 Found"
+2025-05-12 12:15:51,382 - httpx - INFO - HTTP Request: GET https://accounts.google.com/InteractiveLogin?continue=https://scholar.google.com/citations?hl%3Den%26view_op%3Dsearch_authors%26mauthors%3DJane%2520Doe&hl=en&service=citations&ifkv=ASKV5MhMONpZFrX-mWtrsgZrtX9eNDUSd8_qKjMNbXYdHIWxT3QnXENkfJ0ql5VMFs5rvVdJsG4pTQ "HTTP/1.1 302 Moved Temporarily"
+2025-05-12 12:15:51,491 - httpx - INFO - HTTP Request: GET https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fscholar.google.com%2Fcitations%3Fhl%3Den%26view_op%3Dsearch_authors%26mauthors%3DJane%2520Doe&hl=en&ifkv=ASKV5Mi9WCmjInou1VQoSYpSL4Y8hBo4BldIVdPLGyv0vuHmsIZ0DvNrq-qwTVLpV2TNJC3r30jn7A&service=citations&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S36214554%3A1747048439933693 "HTTP/1.1 200 OK"
+2025-05-12 12:15:51,707 - scholarly - INFO - Found 0 authors
+2025-05-12 12:15:51,709 - scholarly - INFO - No more author pages
+2025-05-12 12:15:51,710 - ScholarPublicationCollector - WARNING -  No exact profile found for Jane Doe. Checking alternative matches...
+2025-05-12 12:15:51,711 - ScholarPublicationCollector - WARNING -  No profile found for Jane Doe or related names
+2025-05-12 12:15:51,711 - ScholarPublicationCollector - WARNING -  No Google Scholar profile or publications found for Jane Doe
+2025-05-12 12:15:51,711 - ScholarPublicationCollector - INFO - Waiting 5s before next researcher...
+2025-05-12 12:15:56,713 - ScholarPublicationCollector - INFO - 
+ Processing Michael Johnson...
+2025-05-12 12:15:56,713 - ScholarPublicationCollector - INFO - 
+ Searching for author: Michael Johnson...
+2025-05-12 12:15:56,714 - scholarly - INFO - Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Michael%20Johnson
+2025-05-12 12:15:58,031 - httpx - INFO - HTTP Request: GET https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Michael%20Johnson "HTTP/1.1 302 Found"
+2025-05-12 12:15:58,201 - httpx - INFO - HTTP Request: GET https://accounts.google.com/Login?hl=en&continue=https://scholar.google.com/citations%3Fhl%3Den%26view_op%3Dsearch_authors%26mauthors%3DMichael%2520Johnson&service=citations "HTTP/1.1 302 Found"
+2025-05-12 12:15:58,262 - httpx - INFO - HTTP Request: GET https://accounts.google.com/InteractiveLogin?continue=https://scholar.google.com/citations?hl%3Den%26view_op%3Dsearch_authors%26mauthors%3DMichael%2520Johnson&hl=en&service=citations&ifkv=ASKV5Mi3b3rzzHY6bVUQURQ4GKvJAAAfeekRzQc2vjkPoyGT_4QdiRC47AXyQHqAM01mePtYQSzWug "HTTP/1.1 302 Moved Temporarily"
+2025-05-12 12:15:58,356 - httpx - INFO - HTTP Request: GET https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fscholar.google.com%2Fcitations%3Fhl%3Den%26view_op%3Dsearch_authors%26mauthors%3DMichael%2520Johnson&hl=en&ifkv=ASKV5MjrxAOX3kS2j3qzb_I1pMQSgg2kRQ8WDBU-8hBj07HXxMaZBsdfMu-WWUquA9I7UItKaw_1gg&service=citations&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1764217741%3A1747048446810030 "HTTP/1.1 200 OK"
+2025-05-12 12:15:58,753 - scholarly - INFO - Found 0 authors
+2025-05-12 12:15:58,756 - scholarly - INFO - No more author pages
+2025-05-12 12:15:58,756 - ScholarPublicationCollector - WARNING -  No exact profile found for Michael Johnson. Checking alternative matches...
+2025-05-12 12:15:58,756 - ScholarPublicationCollector - WARNING -  No profile found for Michael Johnson or related names
+2025-05-12 12:15:58,757 - ScholarPublicationCollector - WARNING -  No Google Scholar profile or publications found for Michael Johnson
+2025-05-12 12:15:58,757 - ScholarPublicationCollector - INFO - Waiting 5s before next researcher...

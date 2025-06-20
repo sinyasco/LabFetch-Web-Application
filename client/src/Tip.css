@@ -1,0 +1,110 @@
+.tip-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    max-width: 700px;
+    height: 300px; 
+    margin: 20px auto;
+    margin-top: 0;
+    position: relative;
+  }
+  
+  .tip-content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .tip-icon {
+    font-size: 30px;
+    background-color: #e0f2ff;
+    padding: 10px;
+    border-radius: 50%;
+    color: #1d4ed8;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  .tip-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px 0;
+    margin-bottom: 50px;
+  }
+  
+  .tip-main {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .tip-description {
+    color: #555;
+    margin: 5px 0;
+    
+  }
+  
+  /* Flèches */
+  .tip-arrow {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #1d4ed8;
+    transition: transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .tip-arrow:hover {
+    transform: scale(1.2);
+  }
+  
+  .tip-arrow.left {
+    position: absolute;
+    left: 10px;
+  }
+  
+  .tip-arrow.right {
+    position: absolute;
+    right: 10px;
+  }
+  
+  /* Animation */
+.fade-in {
+  animation: fadeIn 1s ease-in forwards;
+}
+
+.fade-out {
+  animation: fadeOut 0.9s ease-out forwards;
+}
+
+@keyframes slideText {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  90% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+}
+
+.tip-description {
+  display: inline-block; /* nécessaire pour le déplacement */
+  animation: slideText 5s ease-in-out infinite;
+}

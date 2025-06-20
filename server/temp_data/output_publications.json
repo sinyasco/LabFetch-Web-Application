@@ -1,0 +1,87 @@
+{
+    "authors": [
+        {
+<<<<<<< HEAD
+            "name": "Seyfeddine Zouana",
+=======
+            "name": "Zouana Seyfeddine",
+>>>>>>> a5d78a35a35ee60ebf38939ee0c89c50f80041cc
+            "orcid_id": "0000-0002-6178-0501",
+            "publications": [
+                {
+                    "title": "Partitioned Binary Search Trees: A Generalization of Red Black Trees.",
+                    "authors": [
+                        "Seyfeddine Zouana",
+                        "Djamel Eddine Zegour"
+                    ],
+                    "year": "2019",
+                    "venue": "Computación y Sistemas",
+                    "venue_details": {
+                        "scimago": null,
+                        "dgrsdt": {
+                            "Category": "Revue B",
+                            "Type": "SCOPUS",
+                            "Journal Title": "Computacion y Sistemas",
+                            "Publisher": "Centro de Investigacion en Computacion (CIC) del Instituto Politecnico Nacional (IPN)",
+                            "ISSN": "14055546",
+                            "EISSN": "-"
+                        }
+                    },
+                    "volume": "23",
+                    "pages": "",
+                    "number": "4",
+                    "type": "Journal Articles",
+                    "access": "unavailable",
+                    "key": "journals/cys/ZouanaZ19",
+                    "doi": "10.13053/CYS-23-4-3108",
+                    "ee": "https://doi.org/10.13053/cys-23-4-3108",
+                    "url": "https://dblp.org/rec/journals/cys/ZouanaZ19"
+                },
+                {
+                    "title": "Red Green Black Trees: Extension to Red Black Trees.",
+                    "authors": [
+                        "Seyfeddine Zouana",
+                        "Djamel Eddine Zegour"
+                    ],
+                    "year": "2018",
+                    "venue": "J. Comput.",
+                    "venue_details": {
+                        "scimago": {
+                            "title": "Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition\nUnited States\nIEEE Computer Society",
+                            "url": "https://www.scimagojr.com/journalsearch.php?q=24212&tip=sid&clean=0",
+                            "scope": "Information not localized",
+                            "subject_area_and_category": {
+                                "Computer Science": {
+                                    "Computer Vision and Pattern Recognition": [],
+                                    "Software": []
+                                }
+                            },
+                            "subject_area": "",
+                            "country": "United States\n\nUniversities and research institutions in United States\n\nMedia Ranking in United States",
+                            "publisher": "IEEE Computer Society\n\nInstitute of Electrical and Electronics Engineers, USA in Scimago Institutions Rankings",
+                            "h_index": "601",
+                            "publication_type": "Conferences and Proceedings",
+                            "issn": "10636919",
+                            "coverage": "1992, 1994, 1996-2001, 2003-2004, 2006-2007, 2010-2024",
+                            "information": "Homepage",
+                            "quartiles": "N/A (Conference/Proceedings)"
+                        },
+                        "dgrsdt": {
+                            "Category": "Not Found",
+                            "Message": "No results found"
+                        }
+                    },
+                    "volume": "13",
+                    "pages": "461-470",
+                    "number": "4",
+                    "type": "Journal Articles",
+                    "access": "open",
+                    "key": "journals/jcp/ZouanaZ18",
+                    "doi": "10.17706/JCP.13.4.461-470",
+                    "ee": "https://doi.org/10.17706/jcp.13.4.461-470",
+                    "url": "https://dblp.org/rec/journals/jcp/ZouanaZ18"
+                }
+            ]
+        }
+    ]
+}

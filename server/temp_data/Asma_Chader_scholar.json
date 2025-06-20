@@ -1,0 +1,138 @@
+{
+    "name": "Asma Chader",
+    "affiliation": "PhD, Ecole Nationale Supérieure d'Informatique (ESI), Algiers, Algeria",
+    "profile_url": "https://scholar.google.com/citations?user=mUvTxsEAAAAJ",
+    "interests": [],
+    "citation_stats": {
+        "total_citations": 41,
+        "h_index": 3,
+        "i10_index": 2
+    },
+    "publications": [
+        {
+            "title": "Sentiment Analysis for Arabizi: Application to Algerian Dialect",
+            "year": 2019,
+            "venue": "11th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management, {IC3K} 2019, Volume 1: KDIR, Vienna, Austria, September 17-19, 2019",
+            "type": "Unknown type",
+            "pages": "475--482",
+            "doi": null,
+            "url": null,
+            "authors": [
+                "Asma Chader",
+                "Dihia Lanasri",
+                "Leila Hamdad",
+                "Mohamed Chemes Eddine Belkheir",
+                "Wassim Hennoune"
+            ],
+            "citations": 19,
+            "Éditeur": "Unknown publisher",
+            "Établissement": "Unknown établissement",
+            "Description": "No description available",
+            "Numéro": null,
+            "volume": "11"
+        },
+        {
+            "title": "Sentiment Analysis in Google play store: Algerian reviews case.",
+            "year": 2020,
+            "venue": "MISC 2020, 6th International Symposium on Modelling and Implementation of Complex Systems, Batna, Algeria",
+            "type": "Unknown type",
+            "pages": "107-121",
+            "doi": null,
+            "url": null,
+            "authors": [
+                "Asma Chader",
+                "Leila Hamdad",
+                "Abdesselam Belkhiri"
+            ],
+            "citations": 14,
+            "Éditeur": "Unknown publisher",
+            "Établissement": "Unknown établissement",
+            "Description": "No description available",
+            "Numéro": null,
+            "volume": null
+        },
+        {
+            "title": "All friends are not equal: weight-aware egocentric network-based user profiling",
+            "year": 2017,
+            "venue": "2017 IEEE/ACS 14th International Conference on Computer Systems and Applications (AICCSA)",
+            "type": "Unknown type",
+            "pages": "482-488",
+            "doi": null,
+            "url": null,
+            "authors": [
+                "Asma Chader",
+                "Hamid Haddadou",
+                "Walid-Khaled Hidouci"
+            ],
+            "citations": 5,
+            "Éditeur": "IEEE",
+            "Établissement": "Unknown établissement",
+            "Description": "No description available",
+            "Numéro": null,
+            "volume": null
+        },
+        {
+            "title": "The Strength of Considering Tie Strength in Social Interest Profiling",
+            "year": 2020,
+            "venue": "Journal of Web Engineering",
+            "type": "Unknown type",
+            "pages": "457–502",
+            "doi": null,
+            "url": null,
+            "authors": [
+                "Asma Chader",
+                "Hamid Haddadou",
+                "Leila Hamdad",
+                "Walid-Khaled Hidouci"
+            ],
+            "citations": 3,
+            "Éditeur": "Unknown publisher",
+            "Établissement": "Unknown établissement",
+            "Description": "No description available",
+            "Numéro": "3-4",
+            "volume": "19"
+        },
+        {
+            "title": "Towards Strength-sensitive Social Profiling in Ego Networks",
+            "year": 2020,
+            "venue": "12th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management, IC3K 2020, Volume 1: KDIR, November 2-4, 2020",
+            "type": "Unknown type",
+            "pages": "210-217",
+            "doi": null,
+            "url": null,
+            "authors": [
+                "Asma Chader",
+                "Hamid Haddadou",
+                "Leila Hamdad",
+                "Walid-Khaled Hidouci"
+            ],
+            "citations": 0,
+            "Éditeur": "Unknown publisher",
+            "Établissement": "Unknown établissement",
+            "Description": "No description available",
+            "Numéro": null,
+            "volume": "12"
+        },
+        {
+            "title": "StrCoBSP: Relationship Strength-Aware Community-Based Social Profiling",
+            "year": 2020,
+            "venue": "Unknown venue",
+            "type": "Unknown type",
+            "pages": "333-347",
+            "doi": null,
+            "url": null,
+            "authors": [
+                "Asma Chader",
+                "Hamid Haddadou",
+                "Leila Hamdad",
+                "Walid-Khaled Hidouci"
+            ],
+            "citations": 0,
+            "Éditeur": "Springer International Publishing",
+            "Établissement": "Unknown établissement",
+            "Description": "No description available",
+            "Numéro": null,
+            "volume": null
+        }
+    ]
+}

@@ -1,0 +1,234 @@
+.cardLigne {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  
+}
+.card {
+  background: none;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-grow: 1; /* Permet à la card de grandir pour remplir l'espace */
+}
+
+.pie {
+  background-color: white;
+  border-radius: 20px;
+  height: 220px; /* Assure la hauteur fixée */
+  /* Permet au pie de grandir pour remplir l'espace */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Coupe ce qui dépasse si jamais */
+  width: 100%;
+}
+
+.pie-content {
+  transform: scale(0.8);
+  transform-origin:  center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+.pie h3{
+  color: #343C6A;
+  font-family: "inter";
+ margin-bottom: 10px;
+  
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch; /* Assure que tous les enfants ont la même hauteur */
+  justify-content: center;
+  gap: 20px;
+  height: 10px; /* Assure que la hauteur est respectée */
+  
+ 
+}
+.custom-legend {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.legend-color {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.legend-text {
+  color: #343C6A;
+  font-family: "inter"
+}
+
+.tablesstat {
+  margin: 0 30px 20px 30px;
+  display: flex;
+   flex-direction: row;
+    gap: 30px;
+     justify-content: center;
+}
+
+/* TopResearcherTable Component Styles */
+.top-researcher-container {
+background-color: white;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+width: 100%;
+max-width: 420px;
+flex: 1;
+}
+
+.top-researcher-title {
+color: #343C6A;
+margin-bottom: 5px;
+font-size: 18px;
+font-weight: 600;
+}
+
+.top-researcher-subtitle {
+color: #7D8FB3;
+font-size: 12px;
+margin-bottom: 15px;
+}
+
+.researcher-table {
+width: 100%;
+border-collapse: collapse;
+}
+
+.researcher-table th {
+text-align: left;
+padding: 8px 4px;
+  color: #7D8FB3;
+font-weight: normal;
+font-size: 14px;
+border-bottom: 1px solid #F0F3FA;
+}
+
+.researcher-table td {
+padding: 12px 0;
+color: #343C6A;
+font-size: 14px;
+border-bottom: 1px solid #F5F7FA;
+text-align: center;
+}
+
+.researcher-table tr:last-child td {
+border-bottom: none;
+}
+
+/* H-Index Chart Component Styles */
+.h-index-container {
+background-color: white;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+width: 100%;
+display: flex
+;
+  flex-direction: column;
+  flex: 2;
+}
+
+.h-index-title {
+color: #343C6A;
+margin-bottom: 15px;
+font-size: 18px;
+font-weight: 600;
+}
+
+.h-index-chart {
+display: flex;
+flex-direction: column;
+gap: 12px;
+flex: 1;
+}
+
+.h-index-row {
+display: flex;
+align-items: center;
+gap: 10px;
+flex: 1;
+}
+
+.h-index-label {
+width: 60px;
+color: #343C6A;
+font-size: 14px;
+}
+
+.h-index-bar-container {
+flex: 1;
+height: 8px;
+background-color: #F0F3FA;
+border-radius: 4px;
+position: relative;
+}
+
+.h-index-bar {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+background-color: #4880FF;
+border-radius: 4px;
+}
+
+.h-index-value {
+width: 20px;
+text-align: right;
+color: #343C6A;
+font-size: 14px;
+font-weight: bold;
+}
+
+/* Container for both components */
+.tables-section {
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 30px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+.tables-section {
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-researcher-container,
+.h-index-container {
+  max-width: 100%;
+}
+}

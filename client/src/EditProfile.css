@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+
+.edit-profile-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.edit-profile-main {
+  flex-grow: 1;
+  padding: 40px;
+  overflow-y: auto;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-profile-header h2 {
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: 600;
+}
+
+.profile-image-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.profile-image {
+    /* Remove any existing styles that might be forcing elliptical shape */
+    border-radius: 50% !important;
+    aspect-ratio: 1/1 !important;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.edit-image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.edit-profile-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  margin-top: 10px; /* Reduced margin-top */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
+  position: relative;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #666;
+  font-weight: 600;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-group .error {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.btn-submit, .btn-cancel {
+  padding: 12px 30px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.btn-submit {
+  background-color: #5084fc;
+  color: white;
+}
+
+.btn-submit:hover {
+  background-color: #3a6ad0;
+}
+
+.btn-cancel {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.btn-cancel:hover {
+  background-color: #e0e0e0;
+}
+
+.form-info {
+  padding-top: 0px; /* Reduced padding-top */
+  width: 100%;
+}
+
+.form-header {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.btn-cancel {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.btn-cancel:hover {
+  background-color: #e0e0e0;
+}
+
+.profile-image-upload {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image-preview-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #1abc9c;
+}
+
+.profile-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-upload-label {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: #1abc9c;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.image-upload-label:hover {
+  background: #16a085;
+}
+
+
+/* Image Upload Styling */
+.image-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.image-preview-wrapper {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.image-preview {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2c7be5;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.image-upload-btn, .image-remove-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.image-upload-btn {
+  background-color: #2c7be5;
+  color: white;
+  border: none;
+}
+
+.image-upload-btn:hover {
+  background-color: #1a68d1;
+}
+
+.image-remove-btn {
+  background-color: #f8f9fa;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+}
+
+.image-remove-btn:hover {
+  background-color: #f1f1f1;
+}
+
+.file-input-hidden {
+  display: none;
+}
+
+.file-requirements {
+  text-align: center;
+  color: #6c757d;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+.file-requirements p {
+  margin: 0.2rem 0;
+}
+
+/* Add these styles to your existing EditProfile.css */
+/* They won't conflict with your current styles but will enhance the UI */
+
+/* Enhanced Image Upload Container */
+.image-upload-container {
+  position: relative;
+  margin: 0 auto 2rem;
+  width: fit-content;
+}
+
+/* Improved Image Preview */
+.image-preview-wrapper {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.image-preview {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #2c7be5;
+  box-shadow: 0 4px 15px rgba(44, 123, 229, 0.2);
+  transition: all 0.3s ease;
+}
+
+/* Hover Effects for Image */
+.image-preview-wrapper:hover .image-preview {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(44, 123, 229, 0.3);
+}
+
+/* Upload Button Enhancements */
+.image-upload-btn {
+  position: relative;
+  overflow: hidden;
+  padding: 0.7rem 1.3rem;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(44, 123, 229, 0.3);
+}
+
+.image-upload-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: 0.5s;
+}
+
+.image-upload-btn:hover::after {
+  left: 100%;
+}
+
+/* Remove Button Enhancements */
+.image-remove-btn {
+  padding: 0.7rem 1.3rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.image-remove-btn:hover {
+  background-color: #dc3545 !important;
+  color: white !important;
+}
+
+/* Status Messages */
+.upload-status {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  animation: slideIn 0.5s ease forwards;
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.upload-status.success {
+  background-color: #4BB543;
+  color: white;
+}
+
+.upload-status.error {
+  background-color: #ff3333;
+  color: white;
+}
+
+.upload-status.loading {
+  background-color: #2c7be5;
+  color: white;
+}
+
+/* File Input Styling */
+.file-input-container {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+.file-input-label {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #2c7be5;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(44, 123, 229, 0.3);
+}
+
+.file-input-label:hover {
+  background-color: #1a68d1;
+  transform: translateY(-2px);
+}
+
+/* Progress Indicator */
+.upload-progress {
+  width: 100%;
+  height: 6px;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+.upload-progress-bar {
+  height: 100%;
+  background-color: #2c7be5;
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .image-preview-wrapper {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .image-actions {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .image-upload-btn, .image-remove-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .upload-status {
+    bottom: 20px;
+    right: 20px;
+    max-width: calc(100% - 40px);
+  }
+}
+
+/* Animation for Image Change */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.image-preview {
+  animation: fadeIn 0.5s ease;
+}
+
+/* Drag and Drop Area */
+.drag-drop-area {
+  border: 2px dashed #2c7be5;
+  border-radius: 50%;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: rgba(44, 123, 229, 0.05);
+}
+
+.drag-drop-area.active {
+  background-color: rgba(44, 123, 229, 0.1);
+  border-color: #1a68d1;
+}
+
+.drag-drop-text {
+  color: #2c7be5;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+/* Tooltip for Image Upload */
+.image-tooltip {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.image-upload-btn:hover .image-tooltip {
+  opacity: 1;
+}
+
+/* Simplified Image Upload */
+.image-upload-simple {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.circle-image {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #f0f0f0;
+  overflow: hidden;
+}
+
+.circle-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.upload-plus {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 36px;
+  height: 36px;
+  background: #2c7be5;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.upload-plus:hover {
+  background: #1a68d1;
+  transform: scale(1.1);
+}
+
+.upload-plus input {
+  display: none;
+}
+
+.upload-plus svg {
+  font-size: 16px;
+}
+
+/* Image Upload Styles */
+.image-upload-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 30px;
+  position: relative;
+}
+
+.profile-image-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e0e0e0;
+}
+
+.plus-button-overlay {
+  position: absolute;
+  bottom: 30px;
+  right: 25px;
+  width: 40px;
+  height: 40px;
+  background: #2c7be5;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transform: translate(10px, 10px);
+  transition: all 0.2s ease;
+  z-index: 2;
+}
+
+.plus-button-overlay:hover {
+  background: #1a68d1;
+  transform: translate(10px, 10px) scale(1.1);
+}
+
+.plus-button-overlay svg {
+  font-size: 18px;
+}
+
+.hidden-file-input {
+  display: none;
+}

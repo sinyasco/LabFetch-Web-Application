@@ -1,0 +1,850 @@
+body {
+  background-color: #f0f2f5;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout Container */
+.document-page {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.document-container {
+  width: 100%;
+  max-width: 1128px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+/* Header */
+.document-header {
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Content Layout */
+.document-content {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.document-left {
+  flex: 2;
+  min-width: 300px;
+}
+
+.document-right {
+  flex: 1;
+  min-width: 250px;
+}
+
+.document-preview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.pdf-icon-style {
+  font-size: 70px;
+  color: #666;
+  position: sticky;
+  top: 40%;
+}
+
+.document-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.document-info h2 {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+/* ----------------------------------------- */
+/* Authors Component Styling (from JSX logic) */
+/* ----------------------------------------- */
+
+.authors {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+.author-link {
+  color: black;
+}
+
+.author-link.clickable {
+  cursor: pointer;
+  text-decoration: underline !important;
+}
+
+.author-link:not(.clickable) {
+  cursor: default;
+  text-decoration: none;
+}
+
+.dropdown-icon {
+  margin: 0 2px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  margin-left: 2px;
+}
+
+.dropdown-icon:hover {
+  color: rgb(29, 27, 27);
+  transform: rotate(180deg);
+}
+
+.dropdown-icon.open {
+  transform: rotate(180deg);
+}
+
+.close-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid red;
+  color: red;
+  font-size: 12px;
+  text-align: center;
+  line-height: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.close-icon:hover {
+  background-color: red;
+  color: white;
+}
+
+.dropdown-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  position: absolute;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  top: 30px;
+  left: 0;
+}
+
+.dropdown-list li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdown-list li:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+
+.info-tot {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #F0F1F3;
+}
+
+.authors {
+  color: #666;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+.info_conf_jrnl {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 10px;
+  flex-wrap: wrap;
+}
+
+.info_conf_jrnl div {
+  line-height: 2;
+  flex: 1;
+  min-width: 150px;
+}
+
+.info_conf_jrnl h4 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  color: rgb(102, 112, 133);
+}
+
+.info_conf_jrnl p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 12px;
+  color: rgb(102, 112, 133);
+}
+
+.info {
+  padding: 5px 0;
+  font-weight: 600;
+  line-height: 132%;
+  letter-spacing: 0.5%;
+  color: #667085;
+  word-wrap: break-word;
+}
+
+.sp {
+  margin-bottom: 10px;
+}
+
+.labelsp {
+  color: #888;
+  padding-top: 40px;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.meta-item .label {
+  color: #888;
+  font-size: 12px;
+}
+
+/* Left Box */
+.cote_gauche {
+  background-color: #FAFAFA;
+  padding: 20px;
+  border-radius: 10px;
+  height: 100%;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.cote_gauche p {
+  color: #333843 !important;
+  word-wrap: break-word;
+}
+
+/* Classification + Scope */
+.classement-section,
+.scope-section {
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.scope-section {
+  margin: 20px;
+}
+
+.classement-section h3,
+.scope-section h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.classement-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.classement-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.classement-name {
+  color: #666;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.badge.a {
+  background-color: #E8F5E9;
+  color: #4CAF50;
+}
+
+.badge.b {
+  background-color: #E3F2FD;
+  color: #2196F3;
+}
+
+.scope-section p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Button Wrapper */
+.vers-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.vers-btn button {
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  padding: 12px 50px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+}
+
+.vers-btn button:hover {
+  background-color: #16a085;
+}
+
+/* Edit Mode */
+.edit-button,
+.save-button,
+.cancel-button {
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.edit-button {
+  background-color: #f0ad4e;
+  color: white;
+  border: none;
+}
+
+.edit-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.save-button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+}
+
+.save-button:disabled {
+  background-color: #8eda8e;
+  cursor: not-allowed;
+}
+
+.cancel-button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+}
+
+.edit-input {
+  width: 100%;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.edit-input.title-input {
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  margin-left: 0;
+}
+
+.edit-input.small-input {
+  width: 60%;
+}
+
+.edit-textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.classification-select {
+  padding: 4px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Responsive Fixes */
+@media (max-width: 1200px) {
+  .document-container {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .document-content {
+    flex-direction: column;
+  }
+
+  .document-left,
+  .document-right {
+    width: 100%;
+  }
+
+  .document-preview {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pdf-icon-style {
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  .document-info {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .document-page {
+      width: 1000px;
+    }
+
+}
+@media (max-width: 768px) {
+  .document-page {
+    padding: 10px;
+  }
+
+  .document-container {
+    margin-top: 30px;
+  }
+
+  .info_conf_jrnl {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .info_conf_jrnl div {
+    width: 100%;
+  }
+
+  .classement-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .scope-section {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .document-header {
+    padding: 15px;
+  }
+
+  .document-content,
+  .document-preview {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .pdf-icon-style {
+    font-size: 50px;
+  }
+
+  .info_conf_jrnl {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .classement-section,
+  .scope-section {
+    padding: 15px;
+  }
+
+  .vers-btn button {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+
+  .meta-item {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.delete-confirmation-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.delete-confirmation-modal {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.confirmation-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.confirm-delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-delete-button {
+  background-color: #95a5a6;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-author-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.add-author-button:hover {
+  background-color: #45a049;
+}
+
+.add-author-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 100;
+  width: 250px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.researcher-search {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.researcher-list {
+  padding: 5px;
+}
+
+.researcher-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.researcher-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Add these styles to your existing CSS */
+.add-author-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 50%;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.add-author-icon:hover {
+  background-color: #45a049;
+}
+
+/* Reuse your existing dropdown styles */
+.dropdown-list {
+  list-style: none;
+  padding: 5px 0;
+  margin: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  max-height: 200px;
+  overflow-y: auto;
+  width: 200px;
+}
+
+.dropdown-list li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.dropdown-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.author-add-container {
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.add-author-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  transition: all 0.2s;
+}
+
+.add-author-icon:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+
+.add-author-icon[disabled] {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.author-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.dropdown-list li[disabled] {
+  color: #ccc;
+  cursor: not-allowed;
+  background-color: #fff;
+}
+
+/* PDF Section Styles */
+.pdf-section {
+  margin-top: 15px;
+}
+
+/* Button Base Style (matches "Voir la publication") */
+.pdf-button,
+.pdf-view-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+/* View PDF Button (matches exactly) */
+.pdf-view-button {
+  background-color: #1abc9c;
+}
+
+.pdf-view-button:hover {
+  background-color: #16a085;
+}
+
+/* Upload Button */
+.upload-button {
+  background-color: #3498db;
+}
+
+.upload-button:hover {
+  background-color: #2980b9;
+}
+
+/* Replace Button */
+.replace-button {
+  background-color: #f39c12;
+}
+
+.replace-button:hover {
+  background-color: #e67e22;
+}
+
+/* Disabled State */
+.pdf-button[disabled] {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+/* Upload Progress */
+.upload-progress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.upload-progress progress {
+  width: 150px;
+  height: 6px;
+  border-radius: 3px;
+}
+
+/* Base button style - matches "Voir la publication" */
+.action-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  margin: 5px 10px 5px 0;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+/* PDF View (green - matches "Voir la publication") */
+.pdf-view {
+  background-color: #1abc9c;
+}
+
+.pdf-view:hover {
+  background-color: #16a085;
+}
+
+/* PDF Upload (blue) */
+.pdf-upload {
+  background-color: #3498db;
+}
+
+.pdf-upload:hover {
+  background-color: #2980b9;
+}
+
+/* PDF Replace (orange) */
+.pdf-replace {
+  background-color: #f39c12;
+}
+
+.pdf-replace:hover {
+  background-color: #e67e22;
+}

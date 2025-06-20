@@ -1,0 +1,49 @@
+
+    .list{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #D5D5D5;
+        padding: 20px 30px;
+        gap: 5px;
+    }
+
+    .npage, .sDate {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        margin: 5px 0;
+    }
+    .npage input, .sDate input {
+        width: 100px;
+        height: 40px;
+        padding: 5px 10px;
+        border-radius: 8px;
+        color: #555;
+        border: 1px solid #ccc;
+        background-color: #ffffff;
+        box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
+        font-size: 14px;
+    }
+    
+    .sDate input {
+        width: 150px;
+    }
+.npage input:last-child{
+    margin-right: 0;
+}
+.npage input:focus , .sDate input:focus{
+    outline: none;
+}
+.npage input::-webkit-outer-spin-button,
+.npage input::-webkit-inner-spin-button {
+    -webkit-appearance: none;}
+    .Filter_publications {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centre tous les éléments horizontalement */
+        transform: scale(0.8);
+        margin-top: 0%;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    }    

@@ -1,0 +1,17 @@
+.list{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #D5D5D5;
+    padding: 20px 30px;
+}
+.aplq{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.Filter_chercheur {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre tous les éléments horizontalement */
+    transform: scale(0.8);
+    margin-top: 0%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,499 @@
+/* ResearcherProfile.css */
+.researcher-profile-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #333;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.back-link:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.profile-tabs {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: none;
+}
+
+.profile-tabs button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+  position: relative;
+}
+
+.profile-tabs button.active {
+  color: #6456b2;
+  font-weight: 500;
+}
+
+.profile-tabs button.active::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #6456b2;
+}
+
+.profile-content {
+  display: flex;
+  padding: 20px;
+  background-color: #F3F4F5;
+}
+
+.profile-sidebar {
+  min-width: 300px;
+  max-width: 300px;
+      padding-right: 20px;
+  border-right: 1px solid #e0e0e0;
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.profile-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.profile-image {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.status-indicator {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: #4CAF50;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.edit-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #1814F3;
+}
+
+.profile-identity {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-identity h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.profile-role {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.profile-badges {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.badge {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F3F4F5;
+}
+
+.badge.google {
+  color: #DB4437;
+}
+
+.badge.research-gate {
+  color: #00CCBB;
+}
+
+.badge.scholar {
+  color: #4285F4;
+}
+
+.badge.linkedin {
+  color: #0077B5;
+}
+
+.profile-status {
+  margin-bottom: 15px;
+}
+
+.status-badge {
+  background-color: #E8F5E9;
+  color: #4CAF50;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.profile-contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.contact-item svg {
+  margin-right: 15px;
+  color: #6456b2;
+  width: 20px;
+}
+
+.contact-item span {
+  color: #333;
+  font-size: 14px;
+}
+
+.contact-item .contact-value {
+  margin-left: auto;
+  color: #666;
+}
+
+.profile-institution {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.profile-details {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.citation-div {
+  display: flex;  
+  flex-direction: column;
+  padding: 12px;
+  border-radius: 25px;
+  background-color: #f5f7fa;
+}
+
+.citation-title {
+  flex: 2;
+  border-bottom: 2px solid #E7E9EB;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.citation-title h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #566577;
+  font-family: Roboto, sans-serif;
+  position: relative;
+}
+
+.citation-title h3::before {
+  content: "";
+  left: -25px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #94b6e2;
+  z-index: 100;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.citations-section {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  gap: 10px;
+}
+
+.citations-section h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.citation-stats {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  flex: 3;
+  width: 200px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.citation-stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.sp::after {
+  content: "";
+  width: 2px;
+  height: 60px;
+  background-color: #E7E9EB;
+  right: -22px;
+  top: 0;
+  position: absolute;
+}
+
+.stat-value {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.stat-label {
+  font-weight: 400;
+  font-size: 17.5px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  color: #566577;
+}
+
+.citation-chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 200px;
+  flex: 1;
+  padding: 12px;
+  border-radius: 25px;
+  /* height: 100%; */
+  /* flex-direction: row; */
+  background-color: white;
+
+
+}
+
+.chart-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+}
+
+.bar {
+  width: 30px;
+  background: linear-gradient(to top, #78b4f9, #8375d0);
+  border-radius: 5px 5px 0 0;
+}
+
+.year {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.details-section {
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.details-header h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.matricule {
+  font-size: 14px;
+  color: #666;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.details-item h4 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.details-item p {
+  color: #666;
+  font-size: 14px;
+}
+
+.collaborations-section {
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.collaborations-section h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.collaborations-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.collaborations-table th,
+.collaborations-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.collaborations-table th {
+  font-weight: 500;
+  color: #333;
+}
+
+.status-interne {
+  color: #4CAF50;
+}
+
+.status-externe {
+  color: #2196F3;
+}
+
+.documents-section {
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.documents-section h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.documents-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.documents-table th,
+.documents-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.documents-table th {
+  font-weight: 500;
+  color: #333;
+}
+
+.document-type {
+  background-color: #E3F2FD;
+  color: #2196F3;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.action-cell {
+  text-align: center;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+}
+
+/* Add to your existing ResearcherProfile.css file */
+.documents-table tbody tr {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.documents-table tbody tr:hover {
+  background-color: rgba(100, 86, 178, 0.05);
+}
+
+
+.profile-img-section {
+  display: flex;
+
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-direction: column;
+}

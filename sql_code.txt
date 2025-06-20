@@ -1,0 +1,120 @@
+drop database lmcs;
+create database lmcs;
+use lmcs ;
+
+
+create table IF NOT EXISTS chercheur(
+    chercheur_id INT AUTO_INCREMENT PRIMARY KEY,
+    normaliz varchar(255),
+    nom_complet varchar(255),
+    intern boolean
+  );
+
+ CREATE TABLE IF NOT EXISTS Utilisateur (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    chercheur_id int,
+    nom VARCHAR(100) NOT NULL,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    mot_de_passe VARCHAR(255) NOT NULL,
+    role ENUM('admin', 'chercheur', 'assistant', 'directeur') NOT NULL,
+    statut boolean,
+    changed boolean,
+    FOREIGN KEY (chercheur_id) REFERENCES chercheur(chercheur_id)
+);
+
+CREATE TABLE IF NOT EXISTS chercheur_lmcs (
+    chercheur_id INT PRIMARY KEY,
+    nom_complet VARCHAR(255) NOT NULL,
+    email VARCHAR(255)  NOT NULL,
+    telephone VARCHAR(20),
+    diplome VARCHAR(100),
+    etablissement VARCHAR(255),
+    qualite VARCHAR(100),
+    grade VARCHAR(100),
+    h_index INT,
+    matricule varchar(20),
+    equipe VARCHAR(100),
+    dblp varchar(255),
+    scholar varchar(255),
+    linkedin varchar(255),
+    researchgate varchar(255),
+    talent varchar(255),
+	image LONGBLOB DEFAULT NULL,
+	image_mimetype VARCHAR(100) DEFAULT NULL,
+    FOREIGN KEY (chercheur_id) REFERENCES chercheur(chercheur_id)
+);
+create table if not exists conf_journal(
+  conf_id varchar(100) primary key ,
+  nom varchar(600),
+  type varchar(255) NOT NULL,
+  thematique VARCHAR(255),
+  scope TEXT,
+  lieu VARCHAR(600),
+  periode varchar(100),
+  periodicite varchar(100)
+);
+ 
+
+CREATE TABLE IF NOT EXISTS publication (
+    pub_id varchar(100)  PRIMARY KEY,
+    conf_id varchar(100) ,
+    titre VARCHAR(255) NOT NULL,
+    lien VARCHAR(500),
+    nombre_pages varchar(100),
+    volume varchar(100),
+    Annee int,
+    pdf_file LONGBLOB DEFAULT NULL,
+	pdf_filename VARCHAR(255) DEFAULT NULL,
+	pdf_mimetype VARCHAR(100) DEFAULT NULL,
+    foreign key (conf_id) references conf_journal (conf_id)
+);
+CREATE TABLE IF NOT EXISTS chercheur_publication (
+    chercheur_id INT,
+    pub_id varchar(100),
+    PRIMARY KEY (chercheur_id, pub_id),
+    FOREIGN KEY (chercheur_id) REFERENCES chercheur(chercheur_id) ON DELETE CASCADE,
+    FOREIGN KEY (pub_id) REFERENCES publication(pub_id) ON DELETE CASCADE
+);
+create table IF NOT EXISTS classement (
+    conf_id varchar(100) ,
+    CORE json,
+    Scimago json,
+    DGRSDT json,
+    Qualis json,
+    foreign key (conf_id) references conf_journal (conf_id)
+);
+
+CREATE TABLE maj (
+    role varchar(50),
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE roles (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nom VARCHAR(50) UNIQUE NOT NULL
+);
+
+INSERT INTO roles (nom) VALUES ('admin'), ('chercheur'), ('assistant'), ('directeur');
+
+
+ALTER TABLE chercheur ADD CONSTRAINT unique_nom_complet UNIQUE (nom_complet);
+ALTER TABLE publication ADD CONSTRAINT unique_titre UNIQUE (titre);
+ALTER TABLE conf_journal ADD CONSTRAINT unique_nom UNIQUE (nom);
+
+SELECT * FROM chercheur;
+
+SELECT * FROM Utilisateur;
+
+SELECT * FROM chercheur_lmcs;
+
+SELECT * FROM conf_journal;
+
+SELECT * FROM publication;
+
+SELECT * FROM chercheur_publication;
+
+SELECT * FROM classement;
+
+SELECT * FROM maj;
+
+SELECT * FROM roles;

@@ -1,0 +1,80 @@
+/* New_account_page.css */
+.new_account_page {
+    padding: 20px;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+}
+
+.page-title {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.table-title {
+    color: #34495e;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.documents-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.documents-table th {
+    background-color: #f8f9fa;
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.documents-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.activate-icon {
+    transition: transform 0.2s;
+}
+
+.activate-icon:hover {
+    transform: scale(1.1);
+}
+
+.loading-message,
+.error-message,
+.no-results-message {
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.loading-message {
+    color: #6c757d;
+}
+
+.error-message {
+    color: #dc3545;
+}
+
+.no-results-message {
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* Overlay and modal styles */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}

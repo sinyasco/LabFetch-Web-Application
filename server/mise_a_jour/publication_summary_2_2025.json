@@ -1,0 +1,164 @@
+{
+  "year": 2025,
+  "total_authors": 30,
+  "total_publications": 9,
+  "publication_types": {
+    "journal articles": 4,
+    "conference and workshop papers": 5
+  },
+  "journal_stats": [
+    {
+      "name": "SN Comput. Sci.",
+      "count": 3,
+      "quartile": {
+        "year": "2024",
+        "quartile": "Q2"
+      },
+      "dgrsdt_rank": "Unknown"
+    },
+    {
+      "name": "Internet Things",
+      "count": 1,
+      "quartile": {
+        "year": "2024",
+        "quartile": "Q1"
+      },
+      "dgrsdt_rank": "Unknown"
+    }
+  ],
+  "conference_stats": [
+    {
+      "name": "ICAART",
+      "count": 2,
+      "rank": "Unknown"
+    },
+    {
+      "name": "AINA",
+      "count": 2,
+      "rank": "Unknown"
+    },
+    {
+      "name": "IoTBDS",
+      "count": 1,
+      "rank": "Unknown"
+    }
+  ],
+  "top_journals": [
+    {
+      "name": "SN Comput. Sci.",
+      "count": 3,
+      "quartile": {
+        "year": "2024",
+        "quartile": "Q2"
+      },
+      "dgrsdt_rank": "Unknown"
+    },
+    {
+      "name": "Internet Things",
+      "count": 1,
+      "quartile": {
+        "year": "2024",
+        "quartile": "Q1"
+      },
+      "dgrsdt_rank": "Unknown"
+    }
+  ],
+  "top_conferences": [
+    {
+      "name": "ICAART",
+      "count": 2,
+      "rank": "Unknown"
+    },
+    {
+      "name": "AINA",
+      "count": 2,
+      "rank": "Unknown"
+    },
+    {
+      "name": "IoTBDS",
+      "count": 1,
+      "rank": "Unknown"
+    }
+  ],
+  "author_stats": [
+    {
+      "name": "tayeb Fatima",
+      "publication_count": 2,
+      "journal_count": 1,
+      "conference_count": 1,
+      "other_count": 0,
+      "citation_stats": {
+        "total_citations": 0,
+        "h_index": 0
+      }
+    },
+    {
+      "name": "Amrouche Hakim",
+      "publication_count": 1,
+      "journal_count": 0,
+      "conference_count": 1,
+      "other_count": 0,
+      "citation_stats": {
+        "total_citations": 0,
+        "h_index": 0
+      }
+    },
+    {
+      "name": "Benatchba Karima",
+      "publication_count": 1,
+      "journal_count": 1,
+      "conference_count": 0,
+      "other_count": 0,
+      "citation_stats": {
+        "total_citations": 0,
+        "h_index": 0
+      }
+    },
+    {
+      "name": "Bessedik Malika",
+      "publication_count": 1,
+      "journal_count": 0,
+      "conference_count": 1,
+      "other_count": 0,
+      "citation_stats": {
+        "total_citations": 0,
+        "h_index": 0
+      }
+    },
+    {
+      "name": "Abdmeziem Mohammed",
+      "publication_count": 2,
+      "journal_count": 1,
+      "conference_count": 1,
+      "other_count": 0,
+      "citation_stats": {
+        "total_citations": 0,
+        "h_index": 0
+      }
+    },
+    {
+      "name": "Hamani Nacer",
+      "publication_count": 1,
+      "journal_count": 0,
+      "conference_count": 1,
+      "other_count": 0,
+      "citation_stats": {
+        "total_citations": 0,
+        "h_index": 0
+      }
+    },
+    {
+      "name": "Dakiche Narimene",
+      "publication_count": 1,
+      "journal_count": 1,
+      "conference_count": 0,
+      "other_count": 0,
+      "citation_stats": {
+        "total_citations": 0,
+        "h_index": 0
+      }
+    }
+  ],
+  "authors_with_publications": 7,
+  "avg_publications_per_author": 1.2857142857142858
+}

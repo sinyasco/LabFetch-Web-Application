@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+.recherche-page{
+    background: #f8f9fa; 
+    min-height: 100vh; 
+    padding-top: 80px;
+    padding-left: 20px;
+}
+.fltr {
+    display: flex;
+    
+    background: #F9F9FB;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 0px;
+    border: 1px solid #D5D5D5;
+    align-items: stretch; /* Fait en sorte que les articles aient la même hauteur */
+}
+.fltr p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+    
+    
+}
+
+article {
+    padding: 10px;
+    margin: 0; /* Supprime la marge pour éviter des écarts */
+    border: none;
+    border-right: 1px solid #D5D5D5; /* Trait vertical entre les articles */
+    display: flex;
+    align-items: center;
+   /* align-items: center; /* Centre le contenu verticalement */
+}
+
+/* Supprime le trait du dernier article */
+article:last-child {
+    border-right: none;
+}
+
+.filtercritere {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Ajoute un petit espacement entre le texte et l'image */
+}
+.filtercritere button {
+    background: none; /* Supprime le fond */
+    border: none; /* Supprime la bordure */
+    font-family: inherit; /* Garde la même police */
+    font-size: inherit; /* Garde la même taille */
+    color: inherit; /* Garde la même couleur */
+    cursor: pointer; /* Ajoute un effet clic */
+    padding: 0; /* Supprime l’espace intérieur */
+    margin: 0; /* Supprime les marges */
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+.filtercritere button:focus {
+    outline: none; /* Supprime l'effet de focus par défaut */
+}
+#search_button{
+    
+    background: none; /* Supprime le fond */
+    border: none; /* Supprime la bordure */
+    font-family: inherit; /* Garde la même police */
+    font-size: inherit; /* Garde la même taille */
+    color: inherit; /* Garde la même couleur */
+    cursor: pointer; /* Ajoute un effet clic */
+    padding: 0; /* Supprime l’espace intérieur */
+    margin: 0; /* Supprime les marges */
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+color: #43B62C;
+}
+
+
+
+
+
+
+.Filter_chercheur ,.Filter_publications{
+    background-color: #ffffff;
+    width: fit-content;
+    border-radius: 20px;
+    z-index: 1000;
+    padding: 0px;
+    border: 1px solid #ffffff;
+
+}
+.Filter_chercheur ul , .Filter_publications ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.Filter_chercheur li , .Filter_publications li{
+    border-radius: 50px;
+    border: 1px solid #E8E8E8;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #B7BABD;
+}
+.Filter_chercheur li.selected, .Filter_publications li.selected{
+    border-color: #95C1D5;
+    color: #95C1D5;
+
+}
+.Filter_chercheur button , .Filter_publications button{
+    background: #4880FF;
+    border-radius: 5px;
+    border: #4880FF;
+    color: white;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+#TypeTab{
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #379AFB;
+    color: white;
+    border-radius: 5px;
+    
+    padding: 5px 10px; 
+    text-transform: capitalize;
+    font-size: 12px;
+    
+    
+}
+.Grandtab{
+    margin-top: 50px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    
+}
+
+    
+
+
+.searchBar {
+    height: 30px;
+    width: 350px;
+    padding: 20px 50px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+.searchBar:focus{
+    outline: none;
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.floating-filter {
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    z-index: 9999;
+}
+
+
+/* hado ta3 pagination */
+.loading-spinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #09f;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination button.active {
+    background-color: #09f;
+    color: #fff;
+    border-color: #09f;
+}
+
+.no-results {
+    text-align: center;
+    font-size: 1.2em;
+    color: #888;
+    margin-top: 20px;
+  }

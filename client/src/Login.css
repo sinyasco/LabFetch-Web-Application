@@ -1,0 +1,84 @@
+
+.logout {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+
+.logout:hover {
+  color: darkred;
+}
+
+/* Ensure styles are only applied to the login page */
+.login-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.login-container .left-section {
+  width: 50%;
+  background: linear-gradient(to bottom, #37FBB6, #4880FF);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.login-container .right-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.login-container input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  min-width: 400px;
+  margin-left: -50px;
+}
+.login-container button {
+  padding: 10px;
+  background: linear-gradient(to right, #37FBB6, #4880FF);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  min-width: 400px;
+  margin-left: -50px;
+
+
+}
+
+.login-container button:hover {
+  opacity: 0.9;
+}
+
+.login-container .error {
+  color: red;
+  font-size: 14px;
+}
+.loginh1 {font-size: 72px; margin-bottom: 50px;}
+.logo{max-width: 150px; margin-bottom: 60px;}
+.left-section .loginp { text-align: centers;}
+.loginh3  {margin-bottom: 50px;
+  background: linear-gradient(to right,#37FBB6, #4880FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}

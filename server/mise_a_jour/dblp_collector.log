@@ -1,0 +1,73 @@
+2025-05-11 13:15:33,041 - DblpCollector - INFO - WebDriver initialized successfully
+2025-05-11 13:15:33,042 - DblpCollector - INFO - 
+[INFO] Collecting DBLP publication data for year 2025
+2025-05-11 13:15:33,043 - DblpCollector - INFO - 
+ Fetching publications for: John Smith
+2025-05-11 13:15:33,043 - DblpCollector - INFO - Collecting DBLP publication data for year 2025
+2025-05-11 13:15:33,043 - DblpCollector - INFO - Fetching page 1 from DBLP API...
+2025-05-11 13:15:34,244 - DblpCollector - INFO - Processing publication: A statistical framework for multi-trait rare varia... (2025)
+2025-05-11 13:15:34,246 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:15:34,246 - DblpCollector - INFO - Processing publication: Enriched phenotypes in rare variant carriers sugge... (2025)
+2025-05-11 13:15:34,247 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:15:34,247 - DblpCollector - INFO - Processing publication: A hierarchical approach for assessing the vulnerab... (2025)
+2025-05-11 13:15:34,247 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:15:35,248 - DblpCollector - INFO - Fetching page 2 from DBLP API...
+2025-05-11 13:15:36,772 - DblpCollector - INFO - Fetching page 3 from DBLP API...
+2025-05-11 13:15:57,889 - DblpCollector - ERROR - Error fetching DBLP data: HTTPSConnectionPool(host='dblp.org', port=443): Max retries exceeded with url: /search/publ/api?q=John%20Smith&format=json&h=100&f=200 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001C128068740>, 'Connection to dblp.org timed out. (connect timeout=30)'))
+2025-05-11 13:15:59,890 - DblpCollector - INFO - Fetching page 3 from DBLP API...
+2025-05-11 13:16:02,717 - DblpCollector - INFO - Fetching page 4 from DBLP API...
+2025-05-11 13:16:04,484 - DblpCollector - INFO - Processing publication: Enhancing hydrological modeling of ungauged waters... (2025)
+2025-05-11 13:16:04,484 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:16:04,484 - DblpCollector - INFO - Processing publication: AI-Guided Codesign for Novel Computing Paradigms.... (2025)
+2025-05-11 13:16:04,485 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:16:04,486 - DblpCollector - INFO - Processing publication: EclipseMonitor: A Real-Time Student Programming En... (2025)
+2025-05-11 13:16:04,486 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:16:05,488 - DblpCollector - INFO - Fetching page 5 from DBLP API...
+2025-05-11 13:16:26,525 - DblpCollector - ERROR - Error fetching DBLP data: HTTPSConnectionPool(host='dblp.org', port=443): Max retries exceeded with url: /search/publ/api?q=John%20Smith&format=json&h=100&f=400 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001C1284A6AE0>, 'Connection to dblp.org timed out. (connect timeout=30)'))
+2025-05-11 13:16:28,526 - DblpCollector - INFO - Fetching page 5 from DBLP API...
+2025-05-11 13:16:49,560 - DblpCollector - ERROR - Error fetching DBLP data: HTTPSConnectionPool(host='dblp.org', port=443): Max retries exceeded with url: /search/publ/api?q=John%20Smith&format=json&h=100&f=400 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001C1284A45C0>, 'Connection to dblp.org timed out. (connect timeout=30)'))
+2025-05-11 13:16:53,562 - DblpCollector - INFO - Fetching page 5 from DBLP API...
+2025-05-11 13:16:58,508 - DblpCollector - INFO - Fetching page 6 from DBLP API...
+2025-05-11 13:17:01,191 - DblpCollector - INFO - Fetching page 7 from DBLP API...
+2025-05-11 13:17:03,299 - DblpCollector - INFO - Fetching page 8 from DBLP API...
+2025-05-11 13:17:04,558 - DblpCollector - INFO - Processing publication: Complexity Framework for Forbidden Subgraphs I: Th... (2025)
+2025-05-11 13:17:04,559 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:17:04,559 - DblpCollector - INFO - Processing publication: New spence difference sets.... (2025)
+2025-05-11 13:17:04,560 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:17:04,561 - DblpCollector - INFO - Processing publication: Video-based real-time assessment and diagnosis of ... (2025)
+2025-05-11 13:17:04,561 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:17:04,562 - DblpCollector - INFO - Processing publication: Interconnect Design for Heterogeneous Integration ... (2025)
+2025-05-11 13:17:04,563 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:17:04,563 - DblpCollector - INFO - Processing publication: Online Feedback Equilibrium Seeking.... (2025)
+2025-05-11 13:17:04,564 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:17:04,564 - DblpCollector - INFO - Processing publication: Therapy Reloaded: Mixed Reality Games for Hand Reh... (2025)
+2025-05-11 13:17:04,565 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:17:04,565 - DblpCollector - INFO - Processing publication: Exploring Culturally Informed AI Assistants: A Com... (2025)
+2025-05-11 13:17:04,566 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:17:04,568 - DblpCollector - INFO - Processing publication: Scaling Analysis of Creative Activity Traces via F... (2025)
+2025-05-11 13:17:04,569 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:17:04,569 - DblpCollector - INFO - Processing publication: A Partition Function Algorithm to Evaluate Inferre... (2025)
+2025-05-11 13:17:04,570 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:17:04,570 - DblpCollector - INFO - Processing publication: From Code to Concepts: Textbook-Driven Knowledge T... (2025)
+2025-05-11 13:17:04,571 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:17:04,572 - DblpCollector - INFO - Processing publication: Spotting AI Missteps: Students Take on LLM Errors ... (2025)
+2025-05-11 13:17:04,572 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:17:04,573 - DblpCollector - INFO - Processing publication: An Investigation of Experiences Engaging the Margi... (2025)
+2025-05-11 13:17:04,573 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:17:04,573 - DblpCollector - INFO - Processing publication: Integrating Personalized Federated Learning with C... (2025)
+2025-05-11 13:17:04,574 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:17:04,574 - DblpCollector - INFO - Processing publication: Fuzzy Linkography: Automatic Graphical Summarizati... (2025)
+2025-05-11 13:17:04,575 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:17:04,576 - DblpCollector - INFO - Processing publication: Assessing the value of advanced computing infrastr... (2025)
+2025-05-11 13:17:04,577 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:17:04,577 - DblpCollector - INFO - Processing publication: Loss-aware Pricing Strategies for Peer-to-Peer Ene... (2025)
+2025-05-11 13:17:04,578 - DblpCollector - INFO - Added publication from 2025
+2025-05-11 13:17:05,579 - DblpCollector - INFO - Fetching page 9 from DBLP API...
+2025-05-11 13:17:08,380 - DblpCollector - INFO - Fetching page 10 from DBLP API...
+2025-05-11 13:17:11,812 - DblpCollector - INFO - Fetching page 11 from DBLP API...
+2025-05-11 13:17:16,268 - DblpCollector - INFO - Fetching page 12 from DBLP API...
+2025-05-11 13:17:18,714 - DblpCollector - INFO - Fetching page 13 from DBLP API...
+2025-05-11 13:17:21,505 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None)': /session/aacc87271f20ff3f4c6e7b59aa6b8947
+2025-05-11 13:17:25,535 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C1284A4B30>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/aacc87271f20ff3f4c6e7b59aa6b8947
+2025-05-11 13:17:29,593 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C1284A4C50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/aacc87271f20ff3f4c6e7b59aa6b8947
+2025-05-11 13:17:37,843 - DblpCollector - INFO - WebDriver closed

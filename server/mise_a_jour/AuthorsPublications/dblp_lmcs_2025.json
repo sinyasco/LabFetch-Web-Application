@@ -1,0 +1,565 @@
+{
+    "authors": [
+        {
+            "name": "Bellahreche Abdelrahmane",
+            "orcid_id": "0000-0002-9156-915X",
+            "publications": []
+        },
+        {
+            "name": "Ghomari Abdessamed",
+            "orcid_id": "0000-0002-0683-9304",
+            "publications": []
+        },
+        {
+            "name": "Boukhadra Adel",
+            "orcid_id": "0000-0001-9473-6729",
+            "publications": []
+        },
+        {
+            "name": "Kermi Adel",
+            "orcid_id": "0000-0003-4926-101X",
+            "publications": []
+        },
+        {
+            "name": "Kechid Amine",
+            "orcid_id": "0000-0003-4726-599X",
+            "publications": []
+        },
+        {
+            "name": "Khelouat Boualem",
+            "orcid_id": "0000-0002-4718-7189",
+            "publications": []
+        },
+        {
+            "name": "Guerrout Elhachemi",
+            "orcid_id": "0000-0002-7976-1878",
+            "publications": []
+        },
+        {
+            "name": "Nader Fahima",
+            "orcid_id": "0000-0002-8912-1815",
+            "publications": []
+        },
+        {
+            "name": "tayeb Fatima",
+            "orcid_id": "0000-0001-7032-8544",
+            "publications": [
+                {
+                    "title": "Prediction of Community Evolution with Com_Tracker Using Tailored Network Splitting and Community Features&apos; Change Rates.",
+                    "authors": [
+                        "Narimene Dakiche",
+                        "Fatima Benbouzid-Si Tayeb",
+                        "Karima Benatchba",
+                        "Yahya Slimani"
+                    ],
+                    "year": "2025",
+                    "venue": "SN Comput. Sci.",
+                    "volume": "6",
+                    "pages": "327",
+                    "number": "4",
+                    "type": "Journal Articles",
+                    "access": "closed",
+                    "key": "journals/sncs/DakicheTBS25",
+                    "doi": "10.1007/S42979-025-03850-4",
+                    "ee": "https://doi.org/10.1007/s42979-025-03850-4",
+                    "url": "https://dblp.org/rec/journals/sncs/DakicheTBS25",
+                    "venue_details": {
+                        "scimago": {
+                            "title": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)\nGermany\nSpringer Science and Business Media Deutschland GmbH",
+                            "url": "https://www.scimagojr.com/journalsearch.php?q=25674&tip=sid&clean=0",
+                            "scope": "This distinguished conference proceedings series publishes the latest research developments in all areas of computer science.",
+                            "subject_area_and_category": {
+                                "Computer Science": {
+                                    "Computer Science (miscellaneous)": []
+                                }
+                            },
+                            "subject_area": "",
+                            "country": "Germany\n\nUniversities and research institutions in Germany\n\nMedia Ranking in Germany",
+                            "publisher": "Springer Science and Business Media Deutschland GmbH",
+                            "h_index": "499",
+                            "publication_type": "Book Series",
+                            "issn": "03029743, 16113349",
+                            "coverage": "1973-2025",
+                            "information": "Homepage",
+                            "quartiles": {
+                                "year": "2024",
+                                "quartile": "Q2"
+                            }
+                        },
+                        "dgrsdt": {
+                            "Category": "Not Found",
+                            "Message": "No results found"
+                        }
+                    }
+                },
+                {
+                    "title": "Enhanced Guided Local Search for Addressing the Graph Burning Problem.",
+                    "authors": [
+                        "Lamia Sadeg-Belkacem",
+                        "Imad Tamelghaghet",
+                        "Fatima Benbouzid-Si Tayeb"
+                    ],
+                    "year": "2025",
+                    "venue": "ICAART",
+                    "volume": "",
+                    "pages": "758-765",
+                    "number": "",
+                    "type": "Conference and Workshop Papers",
+                    "access": "closed",
+                    "key": "conf/icaart/Sadeg-BelkacemT25",
+                    "doi": "10.5220/0013179500003890",
+                    "ee": "https://doi.org/10.5220/0013179500003890",
+                    "url": "https://dblp.org/rec/conf/icaart/Sadeg-BelkacemT25",
+                    "venue_details": {
+                        "scimago": {
+                            "title": "ICAART",
+                            "url": null,
+                            "scope": "Journal not found in Scimago database",
+                            "quartiles": "Not found"
+                        },
+                        "dgrsdt": {
+                            "Category": "Not Found",
+                            "Message": "No results found"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Dahamni Foudil",
+            "orcid_id": "0000-0002-8065-2599",
+            "publications": []
+        },
+        {
+            "name": "Dellys Hachemi",
+            "orcid_id": "0000-0002-8104-1829",
+            "publications": []
+        },
+        {
+            "name": "Amrouche Hakim",
+            "orcid_id": "0009-0003-1805-1244",
+            "publications": [
+                {
+                    "title": "Deep Reinforcement Learning Based Resource Allocation in Ultra Reliable 5G Core Networks.",
+                    "authors": [
+                        "Amel Khamoum",
+                        "Nacer Hamani",
+                        "Hakim Amrouche"
+                    ],
+                    "year": "2025",
+                    "venue": "AINA",
+                    "volume": "",
+                    "pages": "281-291",
+                    "number": "",
+                    "type": "Conference and Workshop Papers",
+                    "access": "closed",
+                    "key": "conf/aina/KhamoumHA25",
+                    "doi": "10.1007/978-3-031-87763-6_25",
+                    "ee": "https://doi.org/10.1007/978-3-031-87763-6_25",
+                    "url": "https://dblp.org/rec/conf/aina/KhamoumHA25",
+                    "venue_details": {
+                        "scimago": {
+                            "title": "Renewable and Sustainable Energy Reviews\nUnited Kingdom\nElsevier Ltd",
+                            "url": "https://www.scimagojr.com/journalsearch.php?q=27567&tip=sid&clean=0",
+                            "scope": "The mission of Renewable and Sustainable Energy Reviews is to communicate the most interesting and relevant critical thinking in renewable and sustainable energy in order to bring together the research community, the private sector and policy and decision makers. The aim of the journal is to share problems, solutions, novel ideas and technologies to support the transition to a low carbon future and achieve our global emissions targets as established by the United Nations Framework Convention on Climate Change.\n\nRenewable and Sustainable Energy Reviews publishes review papers, original research, case studies and new technology analyses that have a significant review element, which may take the form of a critique, comparison, or analysis. The journal also publishes a new paper type, Expert Insights, which are commissioned mini-reviews from field leaders on topics of significant interest. Case studies will only be considered if they also demonstrate the applicability of the work to other regions and/or inform the broader field of renewable and sustainable energy. A bibliographic or literature review, without critical thinking is not considered suitable.",
+                            "subject_area_and_category": {
+                                "Energy": {
+                                    "Renewable Energy, Sustainability and the Environment": []
+                                }
+                            },
+                            "subject_area": "",
+                            "country": "United Kingdom\n\nUniversities and research institutions in United Kingdom\n\nMedia Ranking in United Kingdom",
+                            "publisher": "Elsevier Ltd",
+                            "h_index": "464",
+                            "publication_type": "Journals",
+                            "issn": "13640321, 18790690",
+                            "coverage": "1997-2025",
+                            "information": "Homepage",
+                            "quartiles": {
+                                "year": "2024",
+                                "quartile": "Q1"
+                            }
+                        },
+                        "dgrsdt": {
+                            "Category": "Revue A",
+                            "Journal Title": "ACS Sustainable Chemistry & Engineering",
+                            "Publisher": "AMER CHEMICAL SOC",
+                            "ISSN": "2168-0485",
+                            "EISSN": "2168-0485"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Haroun Hayat",
+            "orcid_id": "0000-0003-0960-7872",
+            "publications": []
+        },
+        {
+            "name": "Benatchba Karima",
+            "orcid_id": "0000-0002-3302-7344",
+            "publications": [
+                {
+                    "title": "Prediction of Community Evolution with Com_Tracker Using Tailored Network Splitting and Community Features&apos; Change Rates.",
+                    "authors": [
+                        "Narimene Dakiche",
+                        "Fatima Benbouzid-Si Tayeb",
+                        "Karima Benatchba",
+                        "Yahya Slimani"
+                    ],
+                    "year": "2025",
+                    "venue": "SN Comput. Sci.",
+                    "volume": "6",
+                    "pages": "327",
+                    "number": "4",
+                    "type": "Journal Articles",
+                    "access": "closed",
+                    "key": "journals/sncs/DakicheTBS25",
+                    "doi": "10.1007/S42979-025-03850-4",
+                    "ee": "https://doi.org/10.1007/s42979-025-03850-4",
+                    "url": "https://dblp.org/rec/journals/sncs/DakicheTBS25",
+                    "venue_details": {
+                        "scimago": {
+                            "title": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)\nGermany\nSpringer Science and Business Media Deutschland GmbH",
+                            "url": "https://www.scimagojr.com/journalsearch.php?q=25674&tip=sid&clean=0",
+                            "scope": "This distinguished conference proceedings series publishes the latest research developments in all areas of computer science.",
+                            "subject_area_and_category": {
+                                "Computer Science": {
+                                    "Computer Science (miscellaneous)": []
+                                }
+                            },
+                            "subject_area": "",
+                            "country": "Germany\n\nUniversities and research institutions in Germany\n\nMedia Ranking in Germany",
+                            "publisher": "Springer Science and Business Media Deutschland GmbH",
+                            "h_index": "499",
+                            "publication_type": "Book Series",
+                            "issn": "03029743, 16113349",
+                            "coverage": "1973-2025",
+                            "information": "Homepage",
+                            "quartiles": "No quartile data available"
+                        },
+                        "dgrsdt": {
+                            "Category": "Not Found",
+                            "Message": "No results found"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Bessedik Malika",
+            "orcid_id": "0000-0002-1007-9096",
+            "publications": [
+                {
+                    "title": "An Efficient Genetic Algorithm for Service Placement in Fog Computing.",
+                    "authors": [
+                        "Dihia Bendjenahi",
+                        "Chadia Moumeni",
+                        "Malika Bessedik"
+                    ],
+                    "year": "2025",
+                    "venue": "ICAART",
+                    "volume": "",
+                    "pages": "547-554",
+                    "number": "",
+                    "type": "Conference and Workshop Papers",
+                    "access": "closed",
+                    "key": "conf/icaart/BendjenahiMB25",
+                    "doi": "10.5220/0013158900003890",
+                    "ee": "https://doi.org/10.5220/0013158900003890",
+                    "url": "https://dblp.org/rec/conf/icaart/BendjenahiMB25",
+                    "venue_details": {
+                        "scimago": {
+                            "title": "ICAART 2011 - Proceedings of the 3rd International Conference on Agents and Artificial Intelligence\nPortugal",
+                            "url": "https://www.scimagojr.com/journalsearch.php?q=19900192401&tip=sid&clean=0",
+                            "scope": "Scope not found",
+                            "subject_area_and_category": {
+                                "Computer Science": {
+                                    "Artificial Intelligence": []
+                                }
+                            },
+                            "subject_area": "",
+                            "country": "Portugal\n\nUniversities and research institutions in Portugal\n\nMedia Ranking in Portugal",
+                            "publisher": "",
+                            "h_index": "15",
+                            "publication_type": "Conferences and Proceedings",
+                            "issn": "-",
+                            "coverage": "-",
+                            "information": null,
+                            "quartiles": "N/A (Conference/Proceedings)"
+                        },
+                        "dgrsdt": {
+                            "Category": "Not Found",
+                            "Message": "No results found"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Abdmeziem Mohammed",
+            "orcid_id": "0000-0002-6871-8030",
+            "publications": [
+                {
+                    "title": "Incentivizing task offloading in IoT: A distributed auctions-based DRL approach.",
+                    "authors": [
+                        "Soumeya Demil",
+                        "Mohammed Riyadh Abdmeziem"
+                    ],
+                    "year": "2025",
+                    "venue": "Internet Things",
+                    "volume": "30",
+                    "pages": "101493",
+                    "number": "",
+                    "type": "Journal Articles",
+                    "access": "closed",
+                    "key": "journals/iot/DemilA25",
+                    "doi": "10.1016/J.IOT.2025.101493",
+                    "ee": "https://doi.org/10.1016/j.iot.2025.101493",
+                    "url": "https://dblp.org/rec/journals/iot/DemilA25",
+                    "venue_details": {
+                        "scimago": {
+                            "title": "IEEE Internet of Things Journal\nUnited States\nInstitute of Electrical and Electronics Engineers Inc.",
+                            "url": "https://www.scimagojr.com/journalsearch.php?q=21100338350&tip=sid&clean=0",
+                            "scope": "The IEEE IoT Journal (IoT-J), launched in 2014, publishes papers on the latest advances, as well as review articles, on the various aspects of IoT. Topics include IoT system architecture, IoT enabling technologies, IoT communication and networking protocols, IoT services and applications, and the social implications of IoT. Examples are IoT demands, impacts, and implications on sensors technologies, big data management, and future internet design for various IoT use cases, such as smart cities, smart environments, smart homes, etc. The fields of interest include:\n\nIoT architectures such as things-centric, data-centric, service-centric architecture, CPS and SCADA platforms, future Internet design for IoT, cloud-based IoT, and system security and manageability.\nIoT enabling technologies such as sensors, radio frequency identification, low power and energy harvesting, sensor networks, machine-type communication, resource-constrained networks, real-time systems, IoT data analytics, in situ processing, and embedded software.\nIoT services, applications, standards, and test-beds such as streaming data management and mining platforms, service middleware, open service platform, semantic service management, security and privacy-preserving protocols, design examples of smart services and applications, and IoT application support.",
+                            "subject_area_and_category": {
+                                "Computer Science": {
+                                    "Computer Networks and Communications": [],
+                                    "Computer Science Applications": [],
+                                    "Hardware and Architecture": [],
+                                    "Information Systems": [],
+                                    "Signal Processing": []
+                                }
+                            },
+                            "subject_area": "",
+                            "country": "United States\n\nUniversities and research institutions in United States\n\nMedia Ranking in United States",
+                            "publisher": "Institute of Electrical and Electronics Engineers Inc.\n\nInstitute of Electrical and Electronics Engineers, USA in Scimago Institutions Rankings",
+                            "h_index": "208",
+                            "publication_type": "Journals",
+                            "issn": "23274662",
+                            "coverage": "2014-2025",
+                            "information": "Homepage",
+                            "quartiles": {
+                                "year": "2024",
+                                "quartile": "Q1"
+                            }
+                        },
+                        "dgrsdt": {
+                            "Category": "Not Found",
+                            "Message": "No results found"
+                        }
+                    }
+                },
+                {
+                    "title": "Dynamic Obfuscation for Secure and Efficient Multi-Cloud Business Processes.",
+                    "authors": [
+                        "Amina Ahmed Nacer",
+                        "Mohammed Riyadh Abdmeziem"
+                    ],
+                    "year": "2025",
+                    "venue": "IoTBDS",
+                    "volume": "",
+                    "pages": "175-182",
+                    "number": "",
+                    "type": "Conference and Workshop Papers",
+                    "access": "closed",
+                    "key": "conf/iotbd/NacerA25",
+                    "doi": "10.5220/0013192100003944",
+                    "ee": "https://doi.org/10.5220/0013192100003944",
+                    "url": "https://dblp.org/rec/conf/iotbd/NacerA25",
+                    "venue_details": {
+                        "scimago": {
+                            "title": "International Conference on Internet of Things, Big Data and Security, IoTBDS - Proceedings\nPortugal\nScience and Technology Publications, Lda",
+                            "url": "https://www.scimagojr.com/journalsearch.php?q=21101107942&tip=sid&clean=0",
+                            "scope": "Scope not found",
+                            "subject_area_and_category": {
+                                "Computer Science": {
+                                    "Computer Networks and Communications": [],
+                                    "Software": []
+                                }
+                            },
+                            "subject_area": "",
+                            "country": "Portugal\n\nUniversities and research institutions in Portugal\n\nMedia Ranking in Portugal",
+                            "publisher": "Science and Technology Publications, Lda",
+                            "h_index": "6",
+                            "publication_type": "Conferences and Proceedings",
+                            "issn": "21844976",
+                            "coverage": "2021-2024",
+                            "information": null,
+                            "quartiles": "N/A (Conference/Proceedings)"
+                        },
+                        "dgrsdt": {
+                            "Category": "Not Found",
+                            "Message": "No results found"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Koudil Mouloud",
+            "orcid_id": "0000-0001-9022-7943",
+            "publications": []
+        },
+        {
+            "name": "Bousbia Nabila",
+            "orcid_id": "0000-0001-6777-3567",
+            "publications": []
+        },
+        {
+            "name": "Hamani Nacer",
+            "orcid_id": "0000-0002-2470-3515",
+            "publications": [
+                {
+                    "title": "Deep Reinforcement Learning Based Resource Allocation in Ultra Reliable 5G Core Networks.",
+                    "authors": [
+                        "Amel Khamoum",
+                        "Nacer Hamani",
+                        "Hakim Amrouche"
+                    ],
+                    "year": "2025",
+                    "venue": "AINA",
+                    "volume": "",
+                    "pages": "281-291",
+                    "number": "",
+                    "type": "Conference and Workshop Papers",
+                    "access": "closed",
+                    "key": "conf/aina/KhamoumHA25",
+                    "doi": "10.1007/978-3-031-87763-6_25",
+                    "ee": "https://doi.org/10.1007/978-3-031-87763-6_25",
+                    "url": "https://dblp.org/rec/conf/aina/KhamoumHA25",
+                    "venue_details": {
+                        "scimago": {
+                            "title": "Renewable and Sustainable Energy Reviews\nUnited Kingdom\nElsevier Ltd",
+                            "url": "https://www.scimagojr.com/journalsearch.php?q=27567&tip=sid&clean=0",
+                            "scope": "The mission of Renewable and Sustainable Energy Reviews is to communicate the most interesting and relevant critical thinking in renewable and sustainable energy in order to bring together the research community, the private sector and policy and decision makers. The aim of the journal is to share problems, solutions, novel ideas and technologies to support the transition to a low carbon future and achieve our global emissions targets as established by the United Nations Framework Convention on Climate Change.\n\nRenewable and Sustainable Energy Reviews publishes review papers, original research, case studies and new technology analyses that have a significant review element, which may take the form of a critique, comparison, or analysis. The journal also publishes a new paper type, Expert Insights, which are commissioned mini-reviews from field leaders on topics of significant interest. Case studies will only be considered if they also demonstrate the applicability of the work to other regions and/or inform the broader field of renewable and sustainable energy. A bibliographic or literature review, without critical thinking is not considered suitable.",
+                            "subject_area_and_category": {
+                                "Energy": {
+                                    "Renewable Energy, Sustainability and the Environment": []
+                                }
+                            },
+                            "subject_area": "",
+                            "country": "United Kingdom\n\nUniversities and research institutions in United Kingdom\n\nMedia Ranking in United Kingdom",
+                            "publisher": "Elsevier Ltd",
+                            "h_index": "464",
+                            "publication_type": "Journals",
+                            "issn": "13640321, 18790690",
+                            "coverage": "1997-2025",
+                            "information": "Homepage",
+                            "quartiles": "No quartile data available"
+                        },
+                        "dgrsdt": {
+                            "Category": "Revue A",
+                            "Journal Title": "ACS Sustainable Chemistry & Engineering",
+                            "Publisher": "AMER CHEMICAL SOC",
+                            "ISSN": "2168-0485",
+                            "EISSN": "2168-0485"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Cherid Nacera",
+            "orcid_id": "0000-0002-5684-737X",
+            "publications": []
+        },
+        {
+            "name": "Dakiche Narimene",
+            "orcid_id": "0000-0003-2371-616X",
+            "publications": [
+                {
+                    "title": "Prediction of Community Evolution with Com_Tracker Using Tailored Network Splitting and Community Features&apos; Change Rates.",
+                    "authors": [
+                        "Narimene Dakiche",
+                        "Fatima Benbouzid-Si Tayeb",
+                        "Karima Benatchba",
+                        "Yahya Slimani"
+                    ],
+                    "year": "2025",
+                    "venue": "SN Comput. Sci.",
+                    "volume": "6",
+                    "pages": "327",
+                    "number": "4",
+                    "type": "Journal Articles",
+                    "access": "closed",
+                    "key": "journals/sncs/DakicheTBS25",
+                    "doi": "10.1007/S42979-025-03850-4",
+                    "ee": "https://doi.org/10.1007/s42979-025-03850-4",
+                    "url": "https://dblp.org/rec/journals/sncs/DakicheTBS25",
+                    "venue_details": {
+                        "scimago": {
+                            "title": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)\nGermany\nSpringer Science and Business Media Deutschland GmbH",
+                            "url": "https://www.scimagojr.com/journalsearch.php?q=25674&tip=sid&clean=0",
+                            "scope": "This distinguished conference proceedings series publishes the latest research developments in all areas of computer science.",
+                            "subject_area_and_category": {
+                                "Computer Science": {
+                                    "Computer Science (miscellaneous)": []
+                                }
+                            },
+                            "subject_area": "",
+                            "country": "Germany\n\nUniversities and research institutions in Germany\n\nMedia Ranking in Germany",
+                            "publisher": "Springer Science and Business Media Deutschland GmbH",
+                            "h_index": "499",
+                            "publication_type": "Book Series",
+                            "issn": "03029743, 16113349",
+                            "coverage": "1973-2025",
+                            "information": "Homepage",
+                            "quartiles": "No quartile data available"
+                        },
+                        "dgrsdt": {
+                            "Category": "Not Found",
+                            "Message": "No results found"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Chalal Rachid",
+            "orcid_id": "0000-0002-0768-2994",
+            "publications": []
+        },
+        {
+            "name": "Mahiou Ramdane",
+            "orcid_id": "0000-0003-2168-3640",
+            "publications": []
+        },
+        {
+            "name": "Boussaha Ryma",
+            "orcid_id": "0009-0006-6033-8806",
+            "publications": []
+        },
+        {
+            "name": "Abdellaoui Sabrina",
+            "orcid_id": "0000-0001-5367-4912",
+            "publications": []
+        },
+        {
+            "name": "Bouzidi-hassini Sabrina",
+            "orcid_id": "0000-0002-0466-7190",
+            "publications": []
+        },
+        {
+            "name": "Artabaz Saliha",
+            "orcid_id": "0000-0002-9673-1507",
+            "publications": []
+        },
+        {
+            "name": "Khelifati Si",
+            "orcid_id": "0000-0002-7947-7885",
+            "publications": []
+        },
+        {
+            "name": "Boukhedimi Sohila",
+            "orcid_id": "0000-0003-1728-1809",
+            "publications": []
+        },
+        {
+            "name": "Faisal Touka",
+            "orcid_id": "0009-0006-9734-5276",
+            "publications": []
+        }
+    ]
+}

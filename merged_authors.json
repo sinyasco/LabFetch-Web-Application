@@ -1,0 +1,720 @@
+{"authors":[ 
+    {
+        "name": {
+            "lastName": "ABDMEZIEM",
+            "firstName": "Mohammed Riyadh"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/mohammed-riyadh-abdmeziem-33208b36",
+            "profil_talents":null,
+            "scholar":"https://scholar.google.fr/citations?user=LcOJWwUAAAAJ&hl=fr",
+            "serch_gate":null,
+            "dplb":"https://dblp.org/pid/158/2621.html",
+            "research_team_name":null,
+            "qualite":null,
+            "diplom":null,
+            "institution": "ESI", 
+            "tele":null,
+            "h_index": "6",
+            "email": "m_abdmeziem@esi.dz",
+            "grade": "Maître-assistant classe B",
+            "orcid_id": "0000-0002-6871-8030"
+        }
+    },
+    {
+        "name": {
+            "lastName": "ABDELLAOUI",
+            "firstName": "Sabrina"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/sabrina-abdellaoui-61099075",
+            "profil_talents":null,
+            "scholar":"https://scholar.google.com/citations?user=EbCO7zUAAAAJ",
+            "serch_gate":"https://www.researchgate.net/profile/Sabrina-Abdellaoui",
+            "dplb":"https://dblp.org/pid/168/2268.html",
+            "research_team_name":null,
+            "qualite":null,
+            "diplom": "Doctorat",
+            "institution": "ESI", 
+            "tele":null,
+            "h_index": "3",
+            "email": "s_abdellaoui@esi.dz",
+            "grade": "Maître de conférences classe B",
+            "orcid_id": "0000-0001-5367-4912"
+        }
+    },
+    {
+        "name": {
+            "lastName": "AMROUCHE",
+            "firstName": "Hakim"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/amrouche-hakim-514b7532",
+            "scholar":"https://scholar.google.com/citations?user=y5DKQy4AAAAJ&hl=ar",
+            "serch_gate":"https://www.researchgate.net/profile/Amrouche-Hakim",
+            "dplb":"https://dblp.org/pid/23/6531.html",
+            "profil_talents":null,
+            "qualite":null,
+            "tele":null,
+            "institution": "ESI" , 
+            "diplom":null,
+            "h_index": "1",
+            "email": "h_amrouche@esi.dz",
+            "grade": "Maître-assistant classe A",
+            "orcid_id": "0009-0007-0540-8194",
+            "research_team_name": "EIAH - Environnement Informatique pour l’Apprentissage Humain"
+        }
+    },
+    {
+        "name": {
+            "lastName": "ARTABAZ",
+            "firstName": "Saliha"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/salihaartabaz",
+            "profil_talents":null,
+            "scholar":"https://scholar.google.fr/citations?user=R0oPubgAAAAJ&hl=en",
+            "serch_gate":"https://www.researchgate.net/profile/Saliha-Artabaz",
+            "dplb":"https://dblp.org/pid/160/6929",
+            "qualite": "Enseignant-Chercheur",
+            "institution": "ESI" , 
+            "diplom":null,
+            "tele":null,
+            "h_index": "4",
+            "email": "s_artabaz@esi.dz",
+            "grade": "Maître-assistant classe A",
+            "orcid_id": "0000-0002-9673-1507",
+            "research_team_name": "SURES - Systèmes Ubiquitaires Résilients Efficaces et Sécurisés"
+        }
+    },
+    {
+        "name": {
+            "lastName": "BENATCHBA",
+            "firstName": "Karima"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/karima-benatchba-65483aa7",
+            "scholar":"https://scholar.google.com/citations?user=7iGY4M0AAAAJ",
+            "serch_gate":"https://www.researchgate.net/profile/Karima-Benatchba",
+            "dplb":"https://dblp.org/pid/64/997.html",
+            "qualite":"Enseignant-Chercheur",
+            "tele":null,
+            "diplom":"Doctorat d'état",
+            "grade": "Professeur",
+            "institution": "ESI",
+            "adresse de l'institution": "BPM68 16270, Oued Smar, Alger",
+            "tél de l'institution": "023939132",
+            "bureau": "LMCS",
+            "email": "k_benatchba@esi.dz",
+            "publications": "- DBLP : https://dblp.org/pid/64/997.html",
+            "profil_talents": "https://talents.esi.dz/ens/benatchba/karima/",
+            "h_index": "11",
+            "orcid_id": "0000-0002-3302-7344",
+            "research_team_name": "OPT - Optimisation"
+        }
+    },
+    {
+        "name": {
+            "lastName": "BESSEDIK",
+            "firstName": "Malika"
+        },
+        "details": {
+            "linkedin":null,
+            "scholar":"https://scholar.google.fr/citations?user=FTzfUeEAAAAJ&hl=fr",
+            "serch_gate":"https://www.researchgate.net/profile/Malika-Bessedik",
+            "dplb":"https://dblp.org/pid/02/5217.html",
+            "profil_talents":null,
+            "qualite":"Enseignant-Chercheur",
+            "institution": "ESI" , 
+            "diplom":"Doctorat",
+            "tele":null,
+            "h_index": "6",
+            "email": "m_bessedik@esi.dz",
+            "grade": "Maître de conférences classe A",
+            "orcid_id": "0000-0002-1007-9096",
+            "research_team_name": "OPT - Optimisation"
+        }
+    },
+    {
+        "name": {
+            "lastName": "BELLAHRECHE",
+            "firstName": "Abdelrahmane"
+        },
+        "details": {
+            "linkedin":null,
+            "profil_talents":null,
+            "scholar":"https://scholar.google.fr/citations?user=D_XqaEAAAAAJ&hl=fr",
+            "serch_gate":null,
+            "dplb":null,
+            "qualite":null,
+            "research_team_name":null,
+            "diplom":null,
+            "institution": "ESI" , 
+            "tele":null,
+            "h_index":null ,
+            "email": "a_bellahreche@esi.dz",
+            "grade": "Maître-assistant classe A",
+            "orcid_id": "0000-0002-9156-915X"
+        }
+    },
+    {
+        "name": {
+            "lastName": "BOUKHEDIMI",
+            "firstName": "Sohila"
+        },
+        "details": {
+            "linkedin":null,
+            "scholar":null,
+            "serch_gate":null,
+            "dplb":null,
+            "profil_talents":null,
+            "qualite":null,
+            "institution": "ESI" , 
+            "diplom":"Doctorat d'état",
+            "tele":null,
+            "h_index":null ,
+            "email": "s_boukhedimi@esi.dz",
+            "grade": "Professeur",
+            "orcid_id": "0000-0003-1728-1809",
+            "research_team_name": "MSI - Management des Systèmes d’Information"
+        }
+    },
+    {
+        "name": {
+            "lastName": "BOUKHADRA",
+            "firstName": "Adel"
+        },
+        "details": {
+            "linkedin":"https://www.linkedin.com/in/boukhadra-adel-3b932a58/?originalSubdomain=dz",
+            "profil_talents":null,
+            "scholar":null,
+            "serch_gate":"https://www.researchgate.net/profile/Boukhadra-Adel",
+            "dplb":"https://dblp.org/pid/116/6640.html",
+            "qualite":null,
+            "research_team_name":null,
+            "diplom":null,
+            "institution": "ESI" , 
+            "tele":null,
+            "h_index": "4",
+            "email": "a_boukhadr@esi.dz",
+            "grade": "Maître-assistant classe A",
+            "orcid_id": "0000-0001-9473-6729"
+        }
+    },
+    {
+        "name": {
+            "lastName": "BOUSBIA",
+            "firstName": "Nabila"
+        },
+        "details": {
+            "linkedin":"https://www.linkedin.com/in/nabilabousbia/?originalSubdomain=dz",
+            "scholar":"https://scholar.google.ca/citations?user=_u5IOC4AAAAJ&hl=fr",
+            "serch_gate":null,
+            "dplb":"https://dblp.org/pid/15/6951.html",
+            "profil_talents":null,
+            "qualite":"Enseignant-Chercheur",
+            "institution": null , 
+            "diplom":"Doctorat",
+            "tele":null,
+            "h_index": "6",
+            "email": "n_bousbia@esi.dz",
+            "grade": "Maître de conférences classe A",
+            "orcid_id": "0000-0001-6777-3567",
+            "research_team_name": "EIAH - Environnement Informatique pour l’Apprentissage Humain"
+        }
+    },
+    {
+        "name": {
+            "lastName": "BOUSSAHA",
+            "firstName": "Ryma"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/ryma-boussaha-02475216",
+            "profil_talents":null,
+            "scholar":"https://scholar.google.fr/citations?user=mg6cCloAAAAJ&hl=fr",
+            "serch_gate":"https://www.researchgate.net/profile/Ryma-Boussaha",
+            "dplb":"https://dblp.org/pid/210/3947",
+            "qualite":null,
+            "diplom":null,
+            "institution": "ESI" , 
+            "tele":null,
+            "h_index": "3",
+            "email": "r_boussaha@esi.dz",
+            "grade": "Maître de conférences classe B",
+            "orcid_id": "0009-0006-6033-8806",
+            "research_team_name": "SURES - Systèmes Ubiquitaires Résilients Efficaces et Sécurisés"
+        }
+    },
+    {
+        "name": {
+            "lastName": "CHALAL",
+            "firstName": "Rachid"
+        },
+        "details": {
+            "linkedin":null,
+            "scholar":"https://scholar.google.com/citations?user=qMYUliQAAAAJ&hl=fr",
+            "serch_gate":"https://www.researchgate.net/profile/Rachid-Chalal",
+            "dplb":"https://dblp.org/pid/91/7093",
+            "qualite":"Enseignant-Chercheur",
+            "diplom":"Doctorat d'état",
+            "tele":null,
+            "grade": "Professeur",
+            "institution": "ESI",
+            "adresse de l'institution": "BPM68 16270, Oued Smar, Alger",
+            "tél de l'institution": "023939132",
+            "bureau": "LMCS",
+            "email": "r_chalal@esi.dz",
+            "publications": "- DBLP : https://dblp.org/pid/91/7093.html",
+            "profil_talents": "https://talents.esi.dz/ens/chalal/rachid/",
+            "h_index": "6",
+            "orcid_id": "0000-0002-0768-2994",
+            "research_team_name": "MSI - Management des Systèmes d’Information"
+        }
+    },
+    {
+        "name": {
+            "lastName": "CHERID",
+            "firstName": "Nacera"
+        },
+        "details": {
+            "linkedin":null,
+            "scholar":null,
+            "serch_gate":null,
+            "dplb":null,
+            "profil_talents":null,
+            "qualite":null,
+            "diplom":null,
+            "institution": "ESI" , 
+            "tele":null,
+            "h_index":null ,
+            "email": "n_cherid@esi.dz",
+            "grade": "Maître-assistant classe A",
+            "orcid_id": "0000-0002-5684-737X",
+            "research_team_name": "CoDesign - Systèmes embarqués"
+        }
+    },
+    {
+        "name": {
+            "lastName": "DAHAMNI",
+            "firstName": "Foudil"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/fodil-dahamni-9000a428",
+            "profil_talents":null,
+            "scholar":null,
+            "serch_gate":"https://www.researchgate.net/profile/Fodil-Dahamni",
+            "dplb":"https://dblp.org/pid/17/2133",
+            "qualite":null,
+            "research_team_name":null,
+            "institution": "ESI" , 
+            "diplom":null,
+            "tele":null,
+            "h_index":null ,
+            "email": "f_dahamni@esi.dz",
+            "grade": "Maître-assistant classe A",
+            "orcid_id": "0000-0002-8065-2599"
+        }
+    },
+    {
+        "name": {
+            "lastName": "DAKICHE",
+            "firstName": "Narimene"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/narimene-dakiche-501690220",
+            "scholar":"https://scholar.google.fr/citations?user=NWKs57cAAAAJ&hl=fr",
+            "serch_gate":"https://www.researchgate.net/profile/Narimene-Dakiche",
+            "dplb":"https://dblp.org/pid/228/3139",
+            "research_team_name":null,
+            "qualite":null,
+            "diplom":null,
+            "tele":null,
+            "grade": "Maître de Conférences B",
+            "institution": "ESI",
+            "adresse de l'institution": "BPM68 16270, Oued Smar, Alger",
+            "tél de l'institution": "023939132",
+            "affiliation": "LMCS : Laboratoire de Méthodes de Conception de Systèmes, Ecole nationale Supérieure d'Informatique",
+            "bureau": "LMCS",
+            "email": "an_dakiche@esi.dz",
+            "publications": "- Google Scholar : https://scholar.google.fr/citations?user=NWKs57cAAAAJ&hl=fr\n- DBLP : https://dblp.org/pid/228/3139.html",
+            "profil_talents": "https://talents.esi.dz/ens/dakiche/narimene/",
+            "h_index": "4",
+            "orcid_id": "0000-0003-2371-616X"
+        }
+    },
+    {
+        "name": {
+            "lastName": "DELLYS",
+            "firstName": "Hachemi Nabil"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/hachemi-nabil-dellys-12572818",
+            "scholar":"https://scholar.google.com/citations?user=DSsOZeEAAAAJ&hl=fr",
+            "serch_gate":"https://www.researchgate.net/profile/Hachemi-Dellys",
+            "dplb":"https://dblp.org/pid/124/7247",
+            "qualite":"Enseignant-Cherceur",
+            "diplom":null,
+            "tele":null,
+            "grade": "Maître de conférences classe B",
+            "institution": "ESI",
+            "adresse de l'institution": "BPM68 16270, Oued Smar, Alger",
+            "tél de l'institution": "023939132",
+            "bureau": "79",
+            "email": "h_dellys@esi.dz",
+            "publications": "- Autre 1 : https://orcid.org/0000-0002-8104-1829\n- Google Scholar : https://scholar.google.com/citations?hl=fr&user=DSsOZeEAAAAJ&view_op=list_works&sortby=pubdate",
+            "biographie": "Hachemi Nabil Dellys received the Ph.D. degree in computer science, in 2019, with a focus on distributed and mobile computing. He has been an Associate Professor with the Higher National School of Computer Science (ESI), Algeria, since 2012. He has been a Researcher and an Educator with the Superior Military School of Material (ESM), since 2019. With a robust professional background, he doubles as a Consultant and a Trainer in computer science, offering expertise to socio-economic enterprises and governmental ministries. He has made significant contributions to scientific research in computer security and biometrics. He has authored numerous papers published in reputable international journals and conferences and actively served on conference committees and as a reviewer.",
+            "profil_talents": "https://talents.esi.dz/ens/dellys/hachemi_nabil/",
+            "h_index": "4",
+            "orcid_id": "0000-0002-8104-1829",
+            "research_team_name": "SURES - Systèmes Ubiquitaires Résilients Efficaces et Sécurisés"
+        }
+    },
+    {
+        "name": {
+            "lastName": "FAISAL",
+            "firstName": "Touka"
+        },
+        "details": {
+            "linkedin":null,
+            "scholar":"https://scholar.google.com/citations?user=qrjIu8kAAAAJ&hl=en",
+            "serch_gate":"https://www.researchgate.net/profile/Touka_Faisal2",
+            "dplb":"https://dblp.org/pid/255/4014",
+            "profil_talents":null,
+            "qualite":null,
+            "research_team_name":null,
+            "diplom":null,
+            "institution": "ESI" , 
+            "tele":null,
+            "h_index":null ,
+            "email": "t_faisal@esi.dz",
+            "grade": "Maître-assistant classe A",
+            "orcid_id": "0009-0006-9734-5276"
+        }
+    },
+    {
+        "name": {
+            "lastName": "GHOMARI",
+            "firstName": "Abdessamed Reda"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/abdessamed-r%C3%A9da-ghomari-28a65716",
+            "scholar":"https://scholar.google.fr/citations?user=hha1UuUAAAAJ&hl=fr",
+            "serch_gate":"https://www.researchgate.net/profile/Abdessamed-Reda-Ghomari",
+            "dplb":"https://dblp.org/pid/98/7095",
+            "qualite":"Enseignant-Chercheur",
+            "diplom":"Doctorat",
+            "tele":null,
+            "h_index":"11" ,
+            "grade": "Professeur",
+            "institution": "ESI",
+            "adresse de l'institution": "BPM68 16270, Oued Smar, Alger",
+            "tél de l'institution": "023939132",
+            "bureau": "LMCS 77",
+            "email": "a_ghomari@esi.dz",
+            "publications": "- Google Scholar : https://scholar.google.fr/citations?hl=fr&pli=1&user=hha1UuUAAAAJ\n- ResearchGate : https://www.researchgate.net/profile/Abdessamed-Reda-Ghomari\n- DBLP : https://dblp.org/pid/98/7095.html\n- Autre 1 : https://www.youtube.com/channel/UC1fb0gIOQG4h6He1MTEtSGw?view_as=subscriber",
+            "page personnelle": "https://ghomari.esi.dz/",
+            "biographie": "Ingénieur d'Etat en Informatique (INI, 1989), Magister en Informatique (INI, 1994), Docteur d’Etat en Informatique (ESI, 2008). Chef d’équipe «Management des Systèmes d’information» au sein du Laboratoire de Recherche LMCS, ESI depuis 2001. Je suis Professeur associé à l'ESAA, Alger depuis 2006.Mes domaines de recherche et d’intervention incluent principalement la gouvernance des systèmes d’information et gouvernance des données, l’intelligence collaborative, les technologies de crises, l’ingénierie des compétences et l’ingénierie pédagogique. Je préside le CSD-ISI depuis Avril 2021. J'ai été Directeur Adjoint des Relations Extérieures et Formation Continue à l’ESI (2011-2018), Coordinateur ESI-Entreprises (2009-2011), Directeur des Études (1996-1997), Chef de Département Tronc-commun (1994-1996). Je cumule près de trois décennies d’expérience comme Consultant à temps partiel sur des projets S.I au sein d’administrations publiques et autres grandes entreprises.",
+            "profil_talents": "https://talents.esi.dz/ens/ghomari/abdessamed_reda/",
+            "orcid_id": "0000-0002-0683-9304",
+            "research_team_name": "MSI - Management des Systèmes d’Information"
+        }
+    },
+    {
+        "name": {
+            "lastName": "GUERROUT",
+            "firstName": "Elhachemi"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/el-hachemi-guerrout-31756357",
+            "scholar":"https://scholar.google.com/citations?user=Dbvc8CwAAAAJ&hl=en",
+            "serch_gate":"https://www.researchgate.net/profile/El-Hachemi-Guerrout",
+            "dplb":"https://dblp.org/pid/86/11218",
+            "qualite":"Enseignant-Chercheur",
+            "diplom":"Doctorat",
+            "tele":null,
+            "grade": "Maître de conférences classe B",
+            "institution": "ESI",
+            "adresse de l'institution": "BPM68 16270, Oued Smar, Alger",
+            "tél de l'institution": "023939132",
+            "bureau": "LMCS 06",
+            "email": "e_guerrout@esi.dz",
+            "publications": "- Google Scholar : https://scholar.google.com/citations?user=Dbvc8CwAAAAJ&hl=en&oi=ao\n- ResearchGate : https://www.researchgate.net/profile/El-Hachemi-Guerrout\n- DBLP : https://dblp.org/pid/86/11218.html\n- Autre 1 : https://www.linkedin.com/in/el-hachemi-guerrout-31756357/\n- Autre 2 : https://www.youtube.com/channel/UCnQwHoUB-omb8qxUEMm2tfA\n- Autre 3 : https://www.slideshare.net/GuerroutElHachemi",
+            "page personnelle": "https://guerrout.esi.dz/contact/",
+            "profil_talents": "https://talents.esi.dz/ens/guerrout/elhachemi/",
+            "h_index": "11",
+            "orcid_id": "0000-0002-7976-1878",
+            "research_team_name": "TIIMA - Traitement et Interprétation des IMAges"
+        }
+    },
+    {
+        "name": {
+            "lastName": "HAMANI",
+            "firstName": "Nacer"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/nacer-hamani-3a922189",
+            "scholar":"https://scholar.google.fr/citations?user=Sx9QpVUAAAAJ&hl=fr",
+            "serch_gate":"https://www.researchgate.net/profile/Nacer-Hamani",
+            "dplb":"https://dblp.org/pid/92/1607",
+            "qualite":"Enseignant-Chercheur",
+            "research_team_name":"MSI - Management des Systèmes d’Information",
+            "diplom":"Doctorat",
+            "tele":null,
+            "grade": "Maître de conférences classe B",
+            "institution": "ESI",
+            "adresse de l'institution": "BPM68 16270, Oued Smar, Alger",
+            "tél de l'institution": "023939132",
+            "bureau": "LMCS 80",
+            "email": "n_hamani@esi.dz",
+            "publications": "- DBLP : https://dblp.org/pid/92/1607.html\n- ResearchGate : https://www.researchgate.net/profile/Nacer-Hamani\n- Google Scholar : https://scholar.google.fr/citations?user=Sx9QpVUAAAAJ&hl=fr",
+            "profil_talents": "https://talents.esi.dz/ens/hamani/nacer/",
+            "h_index": "3",
+            "orcid_id": "0000-0002-2470-3515"
+        }
+    },
+    {
+        "name": {
+            "lastName": "Haroun",
+            "firstName": "Hayat"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/hayat-haroun-a716789a",
+            "scholar":"https://scholar.google.fr/citations?user=qe1cbMAAAAAJ&hl=fr",
+            "serch_gate":null,
+            "dplb":"https://dblp.org/pid/335/2498",
+            "profil_talents":null,
+            "qualite":null,
+            "diplom":null,
+            "institution": "ESI" , 
+            "tele":null,
+            "grade": "Maître assistant",
+            "email":"bh_haroun@esi.dz",
+            "h_index": "3",
+            "orcid_id": "0000-0003-0960-7872",
+            "research_team_name": "MSI - Management des Systèmes d’Information"
+        }
+    },
+    {
+        "name": {
+            "lastName": "Bouzidi-Hassini",
+            "firstName": "Sabrina"
+        },
+        "details": {
+            "linkedin":null,
+            "scholar":"https://scholar.google.com/citations?user=LG1jBMYAAAAJ&hl=en",
+            "serch_gate":null,
+            "dplb":"https://dblp.org/pid/204/0557",
+            "qualite":null,
+            "research_team_name":"Hyperheuristiques pour l’optimisation combinatoire",
+            "diplom":null,
+            "tele":null,
+            "grade": "Maître de conférences classe B",
+            "institution": "ESI",
+            "adresse de l'institution": "BPM68 16270, Oued Smar, Alger",
+            "tél de l'institution": "023939132",
+            "email": "s_hassini@esi.dz",
+            "publications": "- Google Scholar : https://scholar.google.com/citations?user=LG1jBMYAAAAJ&hl=en\n- ResearchGate : https://www.researchgate.net/profile/Sabrina-Bouzidi",
+            "page personnelle": "https://sites.google.com/esi.dz/sabrina-bouzidi-hassini",
+            "profil_talents": "https://talents.esi.dz/ens/hassini/sabrina/",
+            "h_index": "3",
+            "orcid_id": "0000-0002-0466-7190"
+        }
+    },
+    {
+        "name": {
+            "lastName": "KECHID",
+            "firstName": "Amine"
+        },
+        "details": {
+            "linkedin":null,
+            "scholar":null,
+            "serch_gate":null,
+            "dplb":"https://dblp.org/pid/178/1699",
+            "profil_talents":null,
+            "research_team_name":null,
+            "qualite":null,
+            "diplom":null,
+            "institution": "ESI" , 
+            "tele":null,
+            "grade":null,
+            "email":"a_kechid@esi.dz",
+            "h_index": "4",
+            "orcid_id": "0000-0003-4726-599X"
+        }
+    },
+    {
+        "name": {
+            "lastName": "KHELOUAT",
+            "firstName": "Boualem"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/boualem-khelouat-5b32a628",
+            "profil_talents":null,
+            "scholar":null,
+            "serch_gate":null,
+            "dplb":"https://dblp.org/pid/251/6457",
+            "qualite":null,
+            "research_team_name":null,
+            "institution": "ESI" , 
+            "diplom":null,
+            "tele":null,
+            "h_index":null ,
+            "email": "b_khelouat@esi.dz",
+            "grade": "Maître-assistant classe B",
+            "orcid_id": "0000-0002-4718-7189"
+        }
+    },
+    {
+        "name": {
+            "lastName": "KHELIFATI",
+            "firstName": "Si Larabi"
+        },
+        "details": {
+            "linkedin":null,
+            "scholar":"https://scholar.google.fr/citations?user=G-iDEugAAAAJ&hl=fr",
+            "serch_gate":"https://www.researchgate.net/profile/Khelifati_Si_Larabi",
+            "dplb":null,
+            "profil_talents":null,
+            "research_team_name":null,
+            "qualite":null,
+            "diplom":null,
+            "institution": "ESI" , 
+            "tele":null,
+            "h_index": "2",
+            "email": "s_khelifati@esi.dz",
+            "grade": "Maître-assistant classe A",
+            "orcid_id": "0000-0002-7947-7885"
+        }
+    },
+    {
+        "name": {
+            "lastName": "KERMI",
+            "firstName": "Adel"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/adel-kermi-4a140025",
+            "scholar":"https://scholar.google.com/citations?user=1UEZWYAAAAAJ&hl=fr",
+            "serch_gate":"https://www.researchgate.net/profile/Adel-Kermi",
+            "dplb":"https://dblp.org/pid/119/2354",
+            "qualite":"Enseignant-Chercheur",
+            "tele":null,
+            "diplom":"Doctorat",
+            "grade": "Maître de conférences classe A",
+            "institution": "ESI",
+            "adresse de l'institution": "BPM68 16270, Oued Smar, Alger",
+            "tél de l'institution": "023939132",
+            "bureau": "LMCS n°80",
+            "email": "a_kermi@esi.dz",
+            "publications": "- Google Scholar : https://scholar.google.com/citations?user=1UEZWYAAAAAJ",
+            "profil_talents": "https://talents.esi.dz/ens/kermi/adel/",
+            "h_index": "4",
+            "orcid_id": "0000-0003-4926-101X",
+            "research_team_name": "TIIMA - Traitement et Interprétation des IMAges"
+        }
+    },
+    {
+        "name": {
+            "lastName": "KOUDIL",
+            "firstName": "Mouloud"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/mouloud-koudil-3a07ab24/fr",
+            "scholar":"https://scholar.google.com/citations?user=9Zbx-EYAAAAJ&hl=fr",
+            "serch_gate":"https://www.researchgate.net/profile/Mouloud-Koudil",
+            "dplb":"https://www.researchgate.net/profile/Mouloud-Koudil",
+            "qualite":"Enseignant-Chercheur",
+            "tele":null,
+            "diplom":"Doctorat d'état",
+            "grade": "Professeur",
+            "institution": "ESI",
+            "adresse de l'institution": "BPM68 16270, Oued Smar, Alger",
+            "tél de l'institution": "023939132",
+            "bureau": "LMCS",
+            "email": "m_koudil@esi.dz",
+            "publications": "- Google Scholar : https://scholar.google.com/citations?user=9Zbx-EYAAAAJ&hl=fr",
+            "page personnelle": "http://koudil.esi.dz",
+            "profil_talents": "https://talents.esi.dz/ens/koudil/mouloud/",
+            "h_index": "14",
+            "orcid_id": "0000-0001-9022-7943",
+            "research_team_name": "CoDesign - Systèmes embarqués"
+        }
+    },
+    {
+        "name": {
+            "lastName": "MAHIOU",
+            "firstName": "Ramdane"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/ramdane-mahiou-89813728",
+            "scholar":"https://scholar.google.com/citations?user=eFAj_SkAAAAJ&hl=fr",
+            "serch_gate":"https://www.researchgate.net/profile/Ramdane-Mahiou",
+            "dplb":"https://dblp.org/pid/71/8381",
+            "qualite":"Enseignant-Chercheur",
+            "diplom":"Doctorat",
+            "tele":null,
+            "grade": "Maître-assistant classe A",
+            "institution": "ESI",
+            "adresse de l'institution": "BPM68 16270, Oued Smar, Alger",
+            "tél de l'institution": "023939132",
+            "bureau": "76LMCS-ESI",
+            "email": "r_mahiou@esi.dz",
+            "profil_talents": "https://talents.esi.dz/ens/mahiou/ramdane/",
+            "h_index": "5",
+            "orcid_id": "0000-0003-2168-3640",
+            "research_team_name": "TIIMA - Traitement et Interprétation des IMAges"
+        }
+    },
+    {
+        "name": {
+            "lastName": "NADER",
+            "firstName": "Fahima"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/fahima-nader-ba4b7526",
+            "scholar":"https://scholar.google.fr/citations?user=XhP-NkYAAAAJ&hl=fr",
+            "serch_gate":"https://www.researchgate.net/profile/Fahima-Nader",
+            "dplb":"https://dblp.org/pid/17/11042",
+            "qualite":"Enseignant-Chercheur",
+            "diplom":"Doctorat",
+            "tele":null,
+            "grade": "Professeur",
+            "institution": "ESI",
+            "adresse de l'institution": "BPM68 16270, Oued Smar, Alger",
+            "tél de l'institution": "023939132",
+            "bureau": "LABO",
+            "email": "f_nader@esi.dz",
+            "publications": "- DBLP : https://dblp.org/pid/17/11042.html",
+            "profil_talents": "https://talents.esi.dz/ens/nader/fahima/",
+            "h_index": "7",
+            "orcid_id": "0000-0002-8912-1815",
+            "research_team_name": "MSI - Management des Systèmes d’Information"
+        }
+    },
+    {
+        "name": {
+            "lastName": "BENBOUZID-SI TAYEB",
+            "firstName": "Fatima"
+        },
+        "details": {
+            "linkedin":"https://dz.linkedin.com/in/fatima-benbouzid-si-tayeb-2b0739a7",
+            "scholar":"https://scholar.google.com/citations?user=ri2J--kAAAAJ&hl=fr",
+            "serch_gate":"https://www.researchgate.net/profile/Fatima-Benbouzid-Si-Tayeb",
+            "dplb":"https://dblp.org/pid/25/6743.html",
+            "qualite":"Enseignant-Chercheur",
+            "diplom":"Doctorat",
+            "tele":null,
+            "grade": "Professeur",
+            "institution": "ESI",
+            "adresse de l'institution": "BPM68 16270, Oued Smar, Alger",
+            "tél de l'institution": "023939132",
+            "bureau": "LMCS",
+            "email": "f_sitayeb@esi.dz",
+            "publications": "- DBLP : https://dblp.org/pid/25/6743.html",
+            "profil_talents": "https://talents.esi.dz/ens/si_tayeb/fatima/",
+            "h_index": "16",
+            "orcid_id": "0000-0001-7032-8544",
+            "research_team_name": "OPT - Optimisation"
+        }
+    }
+]
+}

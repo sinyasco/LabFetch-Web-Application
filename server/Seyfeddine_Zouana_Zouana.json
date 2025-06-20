@@ -1,0 +1,122 @@
+{
+    "name": "Seyfeddine Zouana",
+    "affiliation": "Ecole nationale Superieure d'Informatique ESI (ex: INI)",
+    "profile_url": "https://scholar.google.com/citations?user=cpGmi0gAAAAJ",
+    "interests": [
+        "Data Structures and Algorithms"
+    ],
+    "citation_stats": {
+        "total_citations": 7,
+        "h_index": 2,
+        "i10_index": 0
+    },
+    "publications": [
+        {
+<<<<<<< HEAD
+            "title": "Red Green Black Trees: Extension to Red Black Trees.",
+            "year": 2018,
+            "venue": "J. Comput.",
+            "type": "Unknown type",
+            "pages": "461-470",
+            "doi": null,
+            "url": null,
+            "authors": [
+                "Seyfeddine Zouana",
+                "Djamel Eddine Zegour"
+            ],
+            "citations": 3,
+            "Éditeur": "Unknown publisher",
+            "Établissement": "Unknown établissement",
+            "Description": "No description available",
+            "Numéro": "4",
+            "volume": "13"
+        },
+        {
+=======
+>>>>>>> a5d78a35a35ee60ebf38939ee0c89c50f80041cc
+            "title": "Partitioned Binary Search Trees: A Generalization of Red Black Trees",
+            "year": 2019,
+            "venue": "Computación y Sistemas",
+            "type": "Unknown type",
+            "pages": "1375-1391",
+            "doi": null,
+<<<<<<< HEAD
+            "url": null,
+=======
+            "url": "https://www.scielo.org.mx/scielo.php?pid=S1405-55462019000401375&script=sci_arttext",
+>>>>>>> a5d78a35a35ee60ebf38939ee0c89c50f80041cc
+            "authors": [
+                "Seyfeddine Zouana",
+                "Djamel Eddine Zegour"
+            ],
+            "citations": 4,
+            "Éditeur": "Centro de Investigación en Computación, IPN",
+            "Établissement": "Unknown établissement",
+<<<<<<< HEAD
+            "Description": "No description available",
+=======
+            "Description": "We propose a generalized form for Red Black Trees. The structure, called Partitioned Binary Search Trees, tolerates finite successions of Red nodes provoking a degree of imbalance while reducing the number of maintenance operations and speeding up the updates. The tree is interesting not only because of its simple operations but also because it insures the same level of performance of Red Black Trees O(log n) and allows an even higher adaptability and efficiency rate in different fields where rebalancing is costly.",
+>>>>>>> a5d78a35a35ee60ebf38939ee0c89c50f80041cc
+            "Numéro": "4",
+            "volume": "23"
+        },
+        {
+<<<<<<< HEAD
+=======
+            "title": "Red Green Black Trees: Extension to Red Black Trees.",
+            "year": 2018,
+            "venue": "J. Comput.",
+            "type": "Unknown type",
+            "pages": "461-470",
+            "doi": null,
+            "url": "https://www.researchgate.net/profile/Seyfeddine-Zouana/publication/335299813_Red_Green_Black_Trees_Extension_to_Red_Black_Trees/links/5e5cf2fba6fdccbeba12c7c1/Red-Green-Black-Trees-Extension-to-Red-Black-Trees.pdf",
+            "authors": [
+                "Seyfeddine Zouana",
+                "Djamel Eddine Zegour"
+            ],
+            "citations": 3,
+            "Éditeur": "Unknown publisher",
+            "Établissement": "Unknown établissement",
+            "Description": "This paper propose an extended form of Red Black trees. It presents a new explicit balancing algorithm called Red Green Black trees. This structure tolerates some degree of imbalance that allows a decrease of the number of rebalancing relaxing the update operations. Through the use of three color nodes, the structure tolerates series of two nodes between Black nodes and defines a less balanced tree. It is interesting because the imbalance doesn't affect the update time and save the same level of performances of Red Black trees of O (log (n)). In fact, Red Green Black trees can provide better performances in environment where the restructuring is most frequent with Red Black trees.",
+            "Numéro": "4",
+            "volume": "13"
+        },
+        {
+>>>>>>> a5d78a35a35ee60ebf38939ee0c89c50f80041cc
+            "title": "Partitioned Trees",
+            "year": 2023,
+            "venue": "Unknown venue",
+            "type": "Unknown type",
+            "pages": null,
+            "doi": null,
+<<<<<<< HEAD
+            "url": null,
+=======
+            "url": "https://www.researchsquare.com/article/rs-2876941/latest",
+>>>>>>> a5d78a35a35ee60ebf38939ee0c89c50f80041cc
+            "authors": [
+                "Fahd Mustapha Meguellati",
+                "Djamel Eddine Zegour",
+                "Seyfeddine Zouana"
+            ],
+            "citations": 0,
+            "Éditeur": "Unknown publisher",
+            "Établissement": "Unknown établissement",
+<<<<<<< HEAD
+            "Description": "No description available",
+            "Numéro": null,
+            "volume": null
+        }
+    ],
+    "scrape_info": {
+        "date": "2025-05-06 08:56:31",
+        "status": "success"
+    }
+=======
+            "Description": "We introduce the Partitioned Trees, a form of Partitioned Binary Search Tree parameterized to represent both Red-Black trees and a family of partially balanced Binary Search Trees. Partitioned Tree is interesting not only because it provides the same time and space complexity as Balanced Binary Search trees O (logn), but also because it’s simple to implement, easily understandable, and highly adaptable in different fields where rebalancing is costly. We outline the various maintenance operations and insertion and deletion algorithms employed by the proposed data structure. Additionally, we conduct an in-depth analysis on the worst-case height of Partitioned Trees followed by a comparison of Partitioned Trees and Red-Black Trees. Our simulations confirm that Partitioned Trees exhibit superior performance compared to Red-Black Trees.",
+            "Numéro": null,
+            "volume": null
+        }
+    ]
+>>>>>>> a5d78a35a35ee60ebf38939ee0c89c50f80041cc
+}
