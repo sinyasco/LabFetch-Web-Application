@@ -1,5 +1,5 @@
 import express from 'express';
-import bcrypt  from 'bcrypt';
+import bcrypt  from 'bcryptjs';
 import { createProxyMiddleware } from 'http-proxy-middleware';
 import jwt  from 'jsonwebtoken';
 import cors from "cors";
